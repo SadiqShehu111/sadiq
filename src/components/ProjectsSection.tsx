@@ -6,44 +6,39 @@ import { ExternalLink, Github, Lightbulb, Users, Award } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "AI-Powered Medical Diagnosis Platform",
-      description: "Developed a comprehensive ML platform that assists medical professionals in diagnosing rare diseases using deep learning and computer vision techniques.",
-      technologies: ["Python", "TensorFlow", "React", "Docker", "AWS"],
-      type: "Industry Collaboration",
-      status: "Deployed",
-      impact: "Reduced diagnosis time by 40% across 5 hospitals",
-      icon: <Lightbulb className="h-5 w-5" />,
+      title: "SPIDVerify",
+      description: "A secure and privacy-preserving decentralised identity verification framework for critical infrastructure and industrial applications using Self-Sovereign Identity principles.",
+      technologies: ["Blockchain", "SSI", "Smart Contracts", "Cryptography", "Privacy"],
+      type: "Research Project",
+      status: "Published",
+      impact: "Published in SmartNets 2023 conference proceedings",
+      icon: <Award className="h-5 w-5" />,
       links: {
-        demo: "#",
-        code: "#",
         paper: "#"
       }
     },
     {
-      title: "Federated Learning Framework",
-      description: "Open-source framework for privacy-preserving machine learning across distributed networks, enabling secure collaborative training without data sharing.",
-      technologies: ["Python", "PyTorch", "Kubernetes", "Go", "Redis"],
-      type: "Open Source",
-      status: "Active Development",
-      impact: "1000+ GitHub stars, used by 20+ organizations",
+      title: "NANSTIMA EU Project (Horizon 2020)",
+      description: "EU Horizon 2020 project focused on developing advanced cybersecurity solutions and frameworks for critical infrastructure protection and resilience.",
+      technologies: ["Cybersecurity", "EU Framework", "Critical Infrastructure", "Risk Assessment"],
+      type: "EU Research Project",
+      status: "Ongoing",
+      impact: "Part of €2.5M EU Horizon 2020 funding programme",
       icon: <Users className="h-5 w-5" />,
       links: {
-        demo: "#",
-        code: "#",
-        docs: "#"
+        project: "#"
       }
     },
     {
-      title: "Climate Change Prediction Models",
-      description: "Advanced ML models for predicting climate patterns and extreme weather events, providing actionable insights for environmental policy makers.",
-      technologies: ["R", "Python", "Scikit-learn", "Matplotlib", "Jupyter"],
-      type: "Research Project",
-      status: "Published",
-      impact: "Cited by 50+ climate research papers",
-      icon: <Award className="h-5 w-5" />,
+      title: "DECADE Centre for Cyber Security",
+      description: "Contributing to the DECADE Centre's mission of advancing cybersecurity research, education, and innovation through collaborative partnerships with academia and industry.",
+      technologies: ["Cyber Security", "Research", "Education", "Industry Collaboration"],
+      type: "Research Centre",
+      status: "Active",
+      impact: "Leading cybersecurity research initiatives at University of Surrey",
+      icon: <Lightbulb className="h-5 w-5" />,
       links: {
-        paper: "#",
-        data: "#"
+        website: "https://decade.ac.uk/about/"
       }
     }
   ];
@@ -102,22 +97,27 @@ const ProjectsSection = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-2 mt-auto">
-                  {project.links.demo && (
-                    <Button variant="outline" size="sm" className="text-xs border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                      <ExternalLink className="mr-1 h-3 w-3" />
-                      Demo
-                    </Button>
-                  )}
-                  {project.links.code && (
-                    <Button variant="outline" size="sm" className="text-xs">
-                      <Github className="mr-1 h-3 w-3" />
-                      Code
-                    </Button>
-                  )}
                   {project.links.paper && (
                     <Button variant="outline" size="sm" className="text-xs">
                       <ExternalLink className="mr-1 h-3 w-3" />
                       Paper
+                    </Button>
+                  )}
+                  {project.links.project && (
+                    <Button variant="outline" size="sm" className="text-xs border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                      <ExternalLink className="mr-1 h-3 w-3" />
+                      Project
+                    </Button>
+                  )}
+                  {project.links.website && (
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="text-xs border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                      onClick={() => window.open(project.links.website, '_blank')}
+                    >
+                      <ExternalLink className="mr-1 h-3 w-3" />
+                      Website
                     </Button>
                   )}
                 </div>

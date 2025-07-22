@@ -12,10 +12,10 @@ const HeroSection = () => {
           <div className="space-y-6">
             <div className="space-y-2">
               <h1 className="text-4xl md:text-5xl font-bold text-text-primary">
-                Dr. Muhammad Shehu Abubakar-Sadiq
+                Abubakar-Sadiq
               </h1>
               <h2 className="text-xl md:text-2xl text-primary font-medium">
-                Cyber Security Post Doctoral Research Fellow
+                PhD in Computer Science • Cyber Security Research Fellow
               </h2>
               <p className="text-lg text-text-secondary">
                 PhD in Computer Science • Information Systems Security • Self-Sovereign Identity
