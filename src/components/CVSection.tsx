@@ -8,27 +8,27 @@ const CVSection = () => {
       icon: <Briefcase className="h-5 w-5" />,
       title: "Professional Experience",
       items: [
-        "Senior Research Scientist at Tech Corp (2020-Present)",
-        "Research Fellow at University Lab (2018-2020)",
-        "ML Engineer at StartupAI (2017-2018)"
+        "Post Doctoral Research Fellow at University of Surrey (2024-Present)",
+        "Google Search Language Consultant - Hausa & Yoruba (2022-2024)",
+        "External Researcher at INESCTEC Porto (2017-2023)"
       ]
     },
     {
       icon: <Award className="h-5 w-5" />,
       title: "Key Achievements",
       items: [
-        "Published 15+ papers in top-tier conferences",
-        "Patent holder for novel ML algorithms",
-        "Best Paper Award at ICML 2022"
+        "Published 10+ papers in security conferences",
+        "PhD in Information Systems Security",
+        "Expert in Self-Sovereign Identity systems"
       ]
     },
     {
       icon: <Users className="h-5 w-5" />,
       title: "Leadership & Impact",
       items: [
-        "Led team of 8 researchers on $2M project",
-        "Mentored 12+ PhD students and interns",
-        "Keynote speaker at 5+ international conferences"
+        "Lecturer at Bayero University Kano",
+        "Fraud Prevention Specialist at Apple",
+        "Multilingual expertise: English, Hausa, Yoruba, Portuguese"
       ]
     }
   ];

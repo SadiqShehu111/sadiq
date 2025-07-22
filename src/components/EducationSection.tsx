@@ -5,54 +5,54 @@ import { GraduationCap, Award, Book } from "lucide-react";
 const EducationSection = () => {
   const education = [
     {
-      degree: "Ph.D. in Computer Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      year: "2017",
-      gpa: "3.95/4.0",
-      thesis: "Advanced Machine Learning Techniques for Real-Time Data Processing",
-      advisor: "Prof. Jane Smith",
+      degree: "Ph.D. in Computer Science - Information Systems Security",
+      institution: "University of Porto",
+      location: "Porto, Portugal",
+      year: "2023",
+      gpa: "N/A",
+      thesis: "Establishing Secure and Privacy-Preserving Digital Identity with Self Sovereign Identity",
+      advisor: "Prof. Manuel Eduardo Correia",
       achievements: [
-        "Best Dissertation Award",
-        "Stanford Graduate Fellowship",
-        "Published 8 papers during PhD"
+        "Specialized in Self-Sovereign Identity",
+        "Published multiple papers during PhD",
+        "Research at CRACS-INESC TEC"
       ]
     },
     {
-      degree: "M.S. in Artificial Intelligence",
-      institution: "Massachusetts Institute of Technology",
-      location: "Cambridge, MA",
-      year: "2013",
-      gpa: "3.92/4.0",
-      thesis: "Neural Network Optimization for Large-Scale Applications",
-      advisor: "Prof. John Doe",
+      degree: "M.S. in Business Information Systems",
+      institution: "University of East London",
+      location: "London, United Kingdom",
+      year: "2012",
+      gpa: "N/A",
+      thesis: "Business Information Systems",
+      advisor: "N/A",
       achievements: [
-        "Summa Cum Laude",
-        "MIT Presidential Fellowship",
-        "Outstanding Graduate Student Award"
+        "Focus on Information Systems",
+        "Business-IT Integration",
+        "Systems Analysis and Design"
       ]
     },
     {
-      degree: "B.S. in Computer Engineering",
-      institution: "University of California, Berkeley",
-      location: "Berkeley, CA",
+      degree: "B.S. in Computer Science (Digital Systems Security)",
+      institution: "University of Wollongong",
+      location: "New South Wales, Australia",
       year: "2011",
-      gpa: "3.89/4.0",
-      thesis: "Embedded Systems for IoT Applications",
-      advisor: "Prof. Sarah Johnson",
+      gpa: "N/A",
+      thesis: "Digital Systems Security",
+      advisor: "N/A",
       achievements: [
-        "Magna Cum Laude",
-        "Phi Beta Kappa",
-        "Dean's Honor List (8 semesters)"
+        "Specialization in Digital Security",
+        "Computer Systems Focus",
+        "Security Fundamentals"
       ]
     }
   ];
 
   const certifications = [
-    "AWS Certified Machine Learning - Specialty",
-    "Google Cloud Professional ML Engineer",
-    "Certified Data Scientist (CDS)",
-    "Deep Learning Specialization (Coursera)"
+    "Information Security and Data Privacy",
+    "CCNA Training",
+    "Security+ Training",
+    "CEH (Certified Ethical Hacker) Training"
   ];
 
   return (

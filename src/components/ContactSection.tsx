@@ -53,21 +53,14 @@ const ContactSection = () => {
                   <Mail className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium text-text-primary">Email</p>
-                    <p className="text-text-secondary">your.email@university.edu</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Phone className="h-5 w-5 text-primary" />
-                  <div>
-                    <p className="font-medium text-text-primary">Phone</p>
-                    <p className="text-text-secondary">+1 (555) 123-4567</p>
+                    <p className="text-text-secondary">msabubakar-sadiq.it@buk.edu.ng</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium text-text-primary">Location</p>
-                    <p className="text-text-secondary">San Francisco, CA</p>
+                    <p className="text-text-secondary">Aldershot, United Kingdom</p>
                   </div>
                 </div>
               </CardContent>

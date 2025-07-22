@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, Mail, Linkedin, Github } from "lucide-react";
-import professionalHeadshot from "@/assets/professional-headshot.jpg";
+// Using uploaded image directly
+const professionalHeadshot = "/lovable-uploads/576c9e0f-7c02-43c8-a9a4-03c1224c4ba5.png";
 
 const HeroSection = () => {
   return (
@@ -11,20 +12,20 @@ const HeroSection = () => {
           <div className="space-y-6">
             <div className="space-y-2">
               <h1 className="text-4xl md:text-5xl font-bold text-text-primary">
-                Dr. Your Name
+                Dr. Muhammad Shehu Abubakar-Sadiq
               </h1>
               <h2 className="text-xl md:text-2xl text-primary font-medium">
-                Senior Research Scientist & AI Engineer
+                Cyber Security Post Doctoral Research Fellow
               </h2>
               <p className="text-lg text-text-secondary">
-                PhD in Computer Science • Machine Learning • Data Science
+                PhD in Computer Science • Information Systems Security • Self-Sovereign Identity
               </p>
             </div>
 
             <p className="text-lg text-text-secondary leading-relaxed max-w-lg">
-              Passionate researcher with 5+ years of experience in machine learning and artificial intelligence. 
-              Published 15+ peer-reviewed papers and led innovative projects that bridge the gap between 
-              academic research and industry applications.
+              Cybersecurity researcher and practitioner with expertise in identity management, data privacy, 
+              and decentralized systems. Published 10+ peer-reviewed papers and experienced in both 
+              academic research and industry applications at Google and Apple.
             </p>
 
             <div className="flex flex-wrap gap-4">

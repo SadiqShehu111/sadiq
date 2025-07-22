@@ -6,44 +6,44 @@ import { ExternalLink, BookOpen, Star } from "lucide-react";
 const PublicationsSection = () => {
   const publications = [
     {
-      title: "Deep Learning Approaches for Advanced Natural Language Processing",
-      authors: "Your Name, Co-Author A., Co-Author B.",
-      venue: "Nature Machine Intelligence",
-      year: "2023",
-      type: "Journal",
-      citations: 127,
+      title: "Privacy-Preserving Photo Sharing: An SSI Use Case",
+      authors: "Fraser, A., Shehu, AS., Frymann, N., Haynes, P., Schneider, S.",
+      venue: "Information Systems Security. ICISS 2024",
+      year: "2025",
+      type: "Conference",
+      citations: 0,
       featured: true,
-      abstract: "This paper presents novel deep learning architectures that significantly improve performance on various NLP tasks..."
+      abstract: "This paper presents a privacy-preserving photo sharing system using Self-Sovereign Identity principles..."
     },
     {
-      title: "Robust Machine Learning in Adversarial Environments",
-      authors: "Your Name, Collaborator C., Collaborator D.",
-      venue: "ICML 2022",
+      title: "On the Compliance of Self-Sovereign Identity with GDPR Principles: A Critical Review",
+      authors: "Shehu, AS.",
+      venue: "arXiv preprint",
+      year: "2024",
+      type: "Preprint",
+      citations: 2,
+      featured: true,
+      abstract: "A comprehensive analysis of how Self-Sovereign Identity systems comply with GDPR requirements..."
+    },
+    {
+      title: "A Decentralised Real Estate Transfer Verification Based on Self-Sovereign Identity and Smart Contract",
+      authors: "Abubakar-Sadiq Shehu, Antonio Pinto, Manuel Eduardo Correia",
+      venue: "19th International Conference on Security and Cryptography",
       year: "2022",
       type: "Conference",
-      citations: 89,
+      citations: 15,
       featured: true,
-      abstract: "We introduce new methods for training ML models that maintain high performance even under adversarial conditions..."
+      abstract: "This work proposes a decentralized framework for real estate transfer verification using blockchain and SSI..."
     },
     {
-      title: "Federated Learning with Privacy Preservation",
-      authors: "Co-Author E., Your Name, Co-Author F.",
-      venue: "NeurIPS 2021",
-      year: "2021",
+      title: "Privacy Preservation And Mandate Representation In Identity Management Systems",
+      authors: "Abubakar-Sadiq Shehu, António Pinto, and Manuel E Correia",
+      venue: "14th IBERIAN CONFERENCE ON INFORMATION SYSTEMS AND TECHNOLOGIES (CISTI 2019)",
+      year: "2019",
       type: "Conference",
-      citations: 156,
+      citations: 8,
       featured: false,
-      abstract: "This work explores privacy-preserving techniques in federated learning environments..."
-    },
-    {
-      title: "Interpretable AI for Healthcare Applications",
-      authors: "Your Name, Medical Expert G., AI Researcher H.",
-      venue: "Journal of Medical AI",
-      year: "2021",
-      type: "Journal",
-      citations: 203,
-      featured: true,
-      abstract: "We develop interpretable AI models specifically designed for critical healthcare decision-making..."
+      abstract: "Investigation of privacy preservation techniques in identity management systems with mandate representation..."
     }
   ];
 
