@@ -55,8 +55,8 @@ const PublicationsSection = () => {
             Publications
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Research contributions published in leading journals and conferences, 
-            with a focus on machine learning, AI, and their practical applications.
+            Research contributions in identity management systems and information systems security, 
+            published in leading conferences and journals with focus on Self-Sovereign Identity and privacy-preserving technologies.
           </p>
         </div>
 
