@@ -11,10 +11,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Dr. Your Name</h3>
+            <h3 className="text-xl font-bold mb-4">Dr Abubakar-Sadiq</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Senior Research Scientist passionate about advancing AI and machine learning 
-              to solve real-world problems across various domains.
+              Cybersecurity researcher
             </p>
           </div>
           
