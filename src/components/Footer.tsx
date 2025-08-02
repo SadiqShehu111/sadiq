@@ -50,13 +50,23 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex space-x-3">
-              <Button variant="ghost" size="sm" className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10">
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10"
+                onClick={() => window.open('https://www.linkedin.com/in/abubakar-sadiq-shehu-0b5687111/', '_blank')}
+              >
                 <Linkedin className="h-4 w-4" />
               </Button>
               <Button variant="ghost" size="sm" className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10">
                 <Github className="h-4 w-4" />
               </Button>
-              <Button variant="ghost" size="sm" className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10">
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10"
+                onClick={() => window.open('https://scholar.google.com/citations?hl=en&user=KvC0u1oAAAAJ', '_blank')}
+              >
                 <Mail className="h-4 w-4" />
               </Button>
             </div>

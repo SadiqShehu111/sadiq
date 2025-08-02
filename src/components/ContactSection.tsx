@@ -73,7 +73,11 @@ const ContactSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <Button variant="outline" className="w-full justify-start border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                <Button 
+                  variant="outline" 
+                  className="w-full justify-start border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => window.open('https://www.linkedin.com/in/abubakar-sadiq-shehu-0b5687111/', '_blank')}
+                >
                   <Linkedin className="mr-3 h-4 w-4" />
                   LinkedIn Profile
                 </Button>
@@ -81,7 +85,11 @@ const ContactSection = () => {
                   <Github className="mr-3 h-4 w-4" />
                   GitHub Profile
                 </Button>
-                <Button variant="outline" className="w-full justify-start">
+                <Button 
+                  variant="outline" 
+                  className="w-full justify-start"
+                  onClick={() => window.open('https://scholar.google.com/citations?hl=en&user=KvC0u1oAAAAJ', '_blank')}
+                >
                   <Mail className="mr-3 h-4 w-4" />
                   Google Scholar
                 </Button>

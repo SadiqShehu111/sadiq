@@ -43,11 +43,21 @@ const HeroSection = () => {
             </div>
 
             <div className="flex space-x-4 pt-4">
-              <Button variant="ghost" size="sm" className="text-text-secondary hover:text-primary">
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                className="text-text-secondary hover:text-primary"
+                onClick={() => window.open('https://www.linkedin.com/in/abubakar-sadiq-shehu-0b5687111/', '_blank')}
+              >
                 <Linkedin className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="sm" className="text-text-secondary hover:text-primary">
-                <Github className="h-5 w-5" />
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                className="text-text-secondary hover:text-primary"
+                onClick={() => window.open('https://scholar.google.com/citations?hl=en&user=KvC0u1oAAAAJ', '_blank')}
+              >
+                <Mail className="h-5 w-5" />
               </Button>
             </div>
           </div>
