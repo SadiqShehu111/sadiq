@@ -25,7 +25,7 @@ export const DownloadableCV = () => {
           </div>
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-blue-600" />
-            <span>Portuguese National</span>
+            <span>Nigerian National</span>
           </div>
         </div>
       </div>
@@ -195,6 +195,17 @@ export const DownloadableCV = () => {
         </div>
       </section>
 
+
+      {/* Languages */}
+      <section className="mb-6">
+        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">LANGUAGES</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+          <div><strong>English:</strong> Native/Fluent</div>
+          <div><strong>Hausa:</strong> Native</div>
+          <div><strong>Yoruba:</strong> Native</div>
+          <div><strong>Portuguese:</strong> Intermediate</div>
+        </div>
+      </section>
 
       {/* Download Button - Only visible on screen */}
       <div className="print:hidden flex justify-center mt-8">
