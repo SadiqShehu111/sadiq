@@ -21,11 +21,11 @@ export const DownloadableCV = () => {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-blue-600" />
-            <span>9 Charters House, Sebastopol Road, Aldershot. GU11 1AZ, UK</span>
+            <span>Travessa da via sacra 84, 2esq, 4200-522</span>
           </div>
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-blue-600" />
-            <span>Nigerian National</span>
+            <span>Portuguese National</span>
           </div>
         </div>
       </div>
@@ -199,11 +199,9 @@ export const DownloadableCV = () => {
       {/* Languages */}
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">LANGUAGES</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div className="grid grid-cols-2 gap-4 text-sm">
           <div><strong>English:</strong> Native/Fluent</div>
-          <div><strong>Hausa:</strong> Native</div>
-          <div><strong>Yoruba:</strong> Native</div>
-          <div><strong>Portuguese:</strong> Intermediate</div>
+          <div><strong>Portuguese:</strong> Fluent</div>
         </div>
       </section>
 
