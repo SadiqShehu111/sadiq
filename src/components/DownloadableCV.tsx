@@ -104,6 +104,22 @@ export const DownloadableCV = () => {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-2">
             <div>
+              <h3 className="font-bold">Pioneer Language Engineer - Google Search</h3>
+              <p className="text-blue-600">Google (Hausa & Yoruba Languages)</p>
+            </div>
+            <span className="text-sm text-gray-600">March 2022 – March 2024</span>
+          </div>
+          <ul className="list-disc ml-6 text-sm space-y-1">
+            <li>Led cross-functional collaboration with engineering, product, and infrastructure teams</li>
+            <li>Designed and optimized NLP algorithms and language models for African languages</li>
+            <li>Built quality assurance processes and evaluation frameworks for algorithm performance</li>
+            <li>Managed internationalization projects from pilot to production launch</li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <div className="flex justify-between items-start mb-2">
+            <div>
               <h3 className="font-bold">External Researcher - Information Security & Identity Management</h3>
               <p className="text-blue-600">INESC TEC Porto (CRACS)</p>
             </div>
