@@ -238,10 +238,19 @@ export const DownloadableCV = () => {
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">SELECTED PUBLICATIONS</h2>
         <div className="text-sm space-y-2">
-          <p>• <strong>SPIDVerify:</strong> A secure and privacy-preserving decentralised identity verification framework (2023)</p>
-          <p>• <strong>Privacy-Preserving Photo Sharing:</strong> An SSI Use Case, Information Systems Security (2025)</p>
-          <p>• <strong>On the Compliance of Self-Sovereign Identity with GDPR Principles:</strong> A Critical Review (2024)</p>
-          <p>• <strong>Privacy Preservation and Mandate Representation</strong> in Identity Management Systems (2019)</p>
+          <p>• Shehu, A.S., & Schneider, S. (2025). <strong>Decentralised supply chain reputation: A privacy and self-sovereign identity perspective.</strong> IEEE European Symposium on Security and Privacy Workshops (EuroS&PW), 474-484.</p>
+          
+          <p>• Fraser, A., Shehu, A.S., Frymann, N., Haynes, P., & Schneider, S. (2025). <strong>Privacy-Preserving Photo Sharing: An SSI Use Case.</strong> Information Systems Security, ICISS 2024. Lecture Notes in Computer Science, vol 15416. Springer.</p>
+          
+          <p>• Shehu, A.S. (2024). <strong>On the Compliance of Self-Sovereign Identity with GDPR Principles: A Critical Review.</strong> arXiv preprint arXiv:2409.03624.</p>
+          
+          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2023). <strong>SPIDVerify: A secure and privacy-preserving decentralised identity verification framework.</strong> International Conference on Smart Applications, Communications and Networking (SmartNets).</p>
+          
+          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2022). <strong>A Decentralised Real Estate Transfer Verification Based on Self-Sovereign Identity and Smart Contract.</strong> 19th International Conference on Security and Cryptography, Lisbon.</p>
+          
+          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2019). <strong>Privacy Preservation and Mandate Representation in Identity Management Systems.</strong> 14th Iberian Conference on Information Systems and Technologies (CISTI), Coimbra.</p>
+          
+          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2018). <strong>On the interoperability of european national identity cards.</strong> International Symposium on Ambient Intelligence, 338-348. Springer.</p>
         </div>
       </section>
 
