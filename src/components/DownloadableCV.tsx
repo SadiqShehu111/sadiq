@@ -73,12 +73,12 @@ export const DownloadableCV = () => {
             <span className="text-sm text-gray-600">May 2024 – Present</span>
           </div>
           <ul className="list-disc ml-6 text-sm space-y-1">
-            <li>Conduct independent research in information security and decentralized data management systems</li>
-            <li>Design and implement security experiments and studies for complex investigation scenarios</li>
-            <li>Analyze research data using advanced statistical and computational methods</li>
-            <li>Supervise graduate students in information security research projects</li>
-            <li>Collaborate with interdisciplinary teams and industry partners on security challenges</li>
-            <li>Participate in peer review process for IEEE and other security journals</li>
+            <li>Deliver undergraduate and postgraduate teaching in cybersecurity and information security topics</li>
+            <li>Design engaging course materials, assignments, and assessments for complex security concepts</li>
+            <li>Supervise and mentor MSc and PhD students in cutting-edge security research projects</li>
+            <li>Lead research in decentralized identity systems and privacy-preserving technologies</li>
+            <li>Publish in top-tier security journals (IEEE) and present at international conferences</li>
+            <li>Collaborate with industry partners to bridge academic research with real-world security challenges</li>
           </ul>
         </div>
 
