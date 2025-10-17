@@ -43,20 +43,54 @@ export const DownloadableCV = () => {
 
       {/* Key Competencies */}
       <section className="mb-6">
-        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">KEY COMPETENCIES</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
-          <div>• Forensic Investigation</div>
-          <div>• Fraud Risk Management</div>
-          <div>• Regulatory Compliance</div>
-          <div>• Anti-Money Laundering (AML)</div>
-          <div>• Anti-Bribery & Corruption</div>
-          <div>• Digital Identity Management</div>
-          <div>• Data Privacy & GDPR</div>
-          <div>• Team Leadership</div>
-          <div>• Project Management</div>
-          <div>• Risk Assessment</div>
-          <div>• Security Protocols</div>
-          <div>• Data Analytics</div>
+        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">KEY COMPETENCIES & SKILLS</h2>
+        
+        <div className="mb-4">
+          <h3 className="font-semibold text-sm mb-2">Teaching & Research Excellence</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+            <div>• Curriculum Development & Delivery</div>
+            <div>• Graduate Student Supervision</div>
+            <div>• Academic Publishing & Peer Review</div>
+            <div>• Complex Problem Analysis</div>
+            <div>• Research Project Management</div>
+            <div>• Cross-Functional Collaboration</div>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold text-sm mb-2">Cybersecurity & Risk Management</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+            <div>• Fraud Detection & Prevention</div>
+            <div>• Forensic Investigation</div>
+            <div>• Risk Assessment & Mitigation</div>
+            <div>• Regulatory Compliance (GDPR, ISO)</div>
+            <div>• Identity & Access Management</div>
+            <div>• Security Protocol Implementation</div>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold text-sm mb-2">Technical & Analytical</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+            <div>• NLP & Algorithm Development</div>
+            <div>• OAuth, SAML, OpenID Connect</div>
+            <div>• Linux/Ubuntu/Windows Systems</div>
+            <div>• Data Analytics & Visualization</div>
+            <div>• Python, Java, C++</div>
+            <div>• Quality Assurance Frameworks</div>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="font-semibold text-sm mb-2">Leadership & Communication</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+            <div>• Team Leadership & Mentorship</div>
+            <div>• Stakeholder Management</div>
+            <div>• Technical Presentation Skills</div>
+            <div>• Project Coordination</div>
+            <div>• Cross-Cultural Communication</div>
+            <div>• Conflict Resolution</div>
+          </div>
         </div>
       </section>
 
