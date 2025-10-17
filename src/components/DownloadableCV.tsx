@@ -34,10 +34,12 @@ export const DownloadableCV = () => {
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
-          Accomplished cybersecurity professional with 8+ years of investigation and fraud prevention experience. PhD in Computer Science with 
-          specialization in Information Systems Security. Proven track record in forensic investigations, fraud risk management, and regulatory 
-          compliance. Expert in identity management systems, data privacy, and anti-fraud technologies. Strong analytical mindset with experience 
-          managing cross-functional teams and complex security projects.
+          Accomplished cybersecurity professional with extensive experience spanning academia, research, and industry. PhD in Computer Science with 
+          specialization in Information Systems Security. Over 8 years of combined experience in academic teaching, cutting-edge security research, 
+          and industry roles including fraud prevention and forensic investigations. Proven track record in delivering undergraduate and postgraduate 
+          education, publishing in top-tier security journals, and managing complex security projects across multiple sectors. Expert in identity 
+          management systems, data privacy, regulatory compliance, and anti-fraud technologies. Strong analytical mindset with demonstrated success 
+          in leading cross-functional teams and bridging academic research with real-world security challenges.
         </p>
       </section>
 
