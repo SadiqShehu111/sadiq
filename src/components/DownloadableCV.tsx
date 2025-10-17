@@ -17,11 +17,11 @@ export const DownloadableCV = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-blue-600" />
-            <span>msabubakar-sadiq.it@buk.edu.ng</span>
+            <span>s.muhammad@surrey.ac.uk</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-blue-600" />
-            <span>Travessa da via sacra 84, 2esq, 4200-522</span>
+            <span>9 Charters House, Sebastopol Road, Aldershot. GU11 1AZ, UK</span>
           </div>
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-blue-600" />
