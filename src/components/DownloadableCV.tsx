@@ -72,7 +72,8 @@ export const DownloadableCV = () => {
         <div className="mb-4">
           <h3 className="font-semibold text-sm mb-2">Technical & Analytical</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
-            <div>• NLP & Algorithm Development</div>
+            <div>• Problem Solving & Critical Thinking</div>
+            <div>• Attention to Detail</div>
             <div>• OAuth, SAML, OpenID Connect</div>
             <div>• Linux/Ubuntu/Windows Systems</div>
             <div>• Data Analytics & Visualization</div>
@@ -85,6 +86,7 @@ export const DownloadableCV = () => {
           <h3 className="font-semibold text-sm mb-2">Leadership & Communication</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
             <div>• Team Leadership & Mentorship</div>
+            <div>• Goal-Oriented & Results-Driven</div>
             <div>• Stakeholder Management</div>
             <div>• Technical Presentation Skills</div>
             <div>• Project Coordination</div>
