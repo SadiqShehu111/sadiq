@@ -187,6 +187,25 @@ export const DownloadableCV = () => {
             <li>Led teams of academic staff and supervised student research projects</li>
           </ul>
         </div>
+
+        <div className="mb-6">
+          <div className="flex justify-between items-start mb-2">
+            <div>
+              <h3 className="font-bold">Relationship and Risk Officer</h3>
+              <p className="text-blue-600">Unity Bank PLC</p>
+            </div>
+            <span className="text-sm text-gray-600">July 2013 – February 2015</span>
+          </div>
+          <ul className="list-disc ml-6 text-sm space-y-1">
+            <li>Conducted customer due diligence and know-your-customer (KYC) checks on new and existing customers</li>
+            <li>Identified potential IT risks and vulnerabilities within the bank's technology systems and infrastructure</li>
+            <li>Developed and implemented cybersecurity strategies to safeguard IT assets from data breaches and cyber threats</li>
+            <li>Ensured IT practices aligned with industry regulations, data protection laws, and cybersecurity standards</li>
+            <li>Developed risk mitigation strategies including control mechanisms, policies, and procedures</li>
+            <li>Monitored regulatory compliance and assessed impact of regulatory changes on bank's risk profile</li>
+            <li>Prepared regular risk reports for senior management and provided risk management training to employees</li>
+          </ul>
+        </div>
       </section>
 
       {/* Education */}
