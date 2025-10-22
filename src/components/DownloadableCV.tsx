@@ -21,7 +21,7 @@ export const DownloadableCV = () => {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-blue-600" />
-            <span>9 Charters House, Sebastopol Road, Aldershot. GU11 1AZ, UK</span>
+            <span>Travessa da Via Sacra 84, 2esq, Porto, 4200-522, Portugal</span>
           </div>
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-blue-600" />
