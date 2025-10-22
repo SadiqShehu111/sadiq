@@ -34,12 +34,13 @@ export const DownloadableCV = () => {
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
-          Accomplished cybersecurity professional with extensive experience spanning academia, research, and industry. PhD in Computer Science with 
-          specialization in Information Systems Security. Over 8 years of combined experience in academic teaching, cutting-edge security research, 
-          and industry roles including fraud prevention and forensic investigations. Proven track record in delivering undergraduate and postgraduate 
-          education, publishing in top-tier security journals, and managing complex security projects across multiple sectors. Expert in identity 
-          management systems, data privacy, regulatory compliance, and anti-fraud technologies. Strong analytical mindset with demonstrated success 
-          in leading cross-functional teams and bridging academic research with real-world security challenges.
+          Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
+          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 8 years of combined experience 
+          in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. Proven track record 
+          in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices across organizations. 
+          Strong analytical mindset with demonstrated success in applying statistical models to risk frameworks, developing key risk indicators, and presenting 
+          security risk analyses to senior leadership. Expert in regulatory compliance (GDPR, ISO), identity management systems, and cross-functional 
+          collaboration to drive security improvements.
         </p>
       </section>
 
@@ -60,14 +61,20 @@ export const DownloadableCV = () => {
         </div>
 
         <div className="mb-4">
-          <h3 className="font-semibold text-sm mb-2">Cybersecurity & Risk Management</h3>
+          <h3 className="font-semibold text-sm mb-2">Security Risk Management & Frameworks</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+            <div>• Risk Management Frameworks (FAIR)</div>
+            <div>• Threat Modeling & Risk Assessment</div>
+            <div>• Quantified Risk Analysis</div>
+            <div>• Security by Design Methodology</div>
+            <div>• Secure Development Lifecycle (SDL)</div>
+            <div>• Key Risk Indicators (KRI) Development</div>
+            <div>• Security Audits & Compliance</div>
+            <div>• Regulatory Compliance (GDPR, ISO 27001)</div>
             <div>• Fraud Detection & Prevention</div>
             <div>• Forensic Investigation</div>
-            <div>• Risk Assessment & Mitigation</div>
-            <div>• Regulatory Compliance (GDPR, ISO)</div>
             <div>• Identity & Access Management</div>
-            <div>• Security Protocol Implementation</div>
+            <div>• Security Standards & Playbooks</div>
           </div>
         </div>
 
@@ -88,12 +95,14 @@ export const DownloadableCV = () => {
           <h3 className="font-semibold text-sm mb-2">Leadership & Communication</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
             <div>• Team Leadership & Mentorship</div>
-            <div>• Goal-Oriented & Results-Driven</div>
+            <div>• Cross-Functional Collaboration</div>
+            <div>• Security Thought Leadership</div>
+            <div>• Executive Presentation Skills</div>
+            <div>• Risk Communication to Business</div>
             <div>• Stakeholder Management</div>
-            <div>• Technical Presentation Skills</div>
-            <div>• Project Coordination</div>
+            <div>• Security Training Development</div>
+            <div>• Goal-Oriented & Results-Driven</div>
             <div>• Cross-Cultural Communication</div>
-            <div>• Conflict Resolution</div>
           </div>
         </div>
       </section>
