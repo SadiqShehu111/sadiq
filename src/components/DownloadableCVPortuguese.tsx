@@ -17,11 +17,11 @@ export const DownloadableCVPortuguese = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-blue-600" />
-            <span>msabubakar-sadiq.it@buk.edu.ng</span>
+            <span>s.muhammad@surrey.ac.uk</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-blue-600" />
-            <span>9 Charters House, Sebastopol Road, Aldershot. GU11 1AZ, UK</span>
+            <span>Travessa da Via Sacra 84, 2esq, Porto, 4200-522, Portugal</span>
           </div>
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-blue-600" />
@@ -34,10 +34,13 @@ export const DownloadableCVPortuguese = () => {
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
-          Accomplished cybersecurity professional with 8+ years of investigation and fraud prevention experience. PhD in Computer Science with 
-          specialization in Information Systems Security. Proven track record in forensic investigations, fraud risk management, and regulatory 
-          compliance. Expert in identity management systems, data privacy, and anti-fraud technologies. Strong analytical mindset with experience 
-          managing cross-functional teams and complex security projects.
+          Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
+          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 8 years of combined experience 
+          in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. Proven track record 
+          in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices across organizations. 
+          Strong analytical mindset with demonstrated success in applying statistical models to risk frameworks, developing key risk indicators, and presenting 
+          security risk analyses to senior leadership. Expert in regulatory compliance (GDPR, ISO), identity management systems, and cross-functional 
+          collaboration to drive security improvements.
         </p>
       </section>
 
@@ -186,12 +189,51 @@ export const DownloadableCVPortuguese = () => {
 
       {/* Key Publications */}
       <section className="mb-6">
-        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">SELECTED PUBLICATIONS</h2>
-        <div className="text-sm space-y-2">
-          <p>• <strong>SPIDVerify:</strong> A secure and privacy-preserving decentralised identity verification framework (2023)</p>
-          <p>• <strong>Privacy-Preserving Photo Sharing:</strong> An SSI Use Case, Information Systems Security (2025)</p>
-          <p>• <strong>On the Compliance of Self-Sovereign Identity with GDPR Principles:</strong> A Critical Review (2024)</p>
-          <p>• <strong>Privacy Preservation and Mandate Representation</strong> in Identity Management Systems (2019)</p>
+        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4 flex items-center justify-between">
+          <span>SELECTED PUBLICATIONS</span>
+          <a 
+            href="https://scholar.google.com/scholar?q=author:%22Abubakar-Sadiq+Shehu%22+OR+author:%22Muhammad+Shehu+Abubakar-Sadiq%22" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm font-normal text-blue-600 hover:text-blue-800 print:hidden flex items-center gap-1"
+          >
+            View Google Scholar →
+          </a>
+        </h2>
+        <div className="text-sm space-y-3">
+          <div>
+            <p><strong>Shehu, A.S.</strong>, & Schneider, S. (2025). Decentralised supply chain reputation: A privacy and self-sovereign identity perspective. <em>IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)</em>, 474-484.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1109/EuroSPW59978.2024.00059</p>
+          </div>
+          
+          <div>
+            <p>Fraser, A., <strong>Shehu, A.S.</strong>, Frymann, N., Haynes, P., & Schneider, S. (2025). Privacy-Preserving Photo Sharing: An SSI Use Case. In: <em>Information Systems Security, ICISS 2024. Lecture Notes in Computer Science</em>, vol 15416, pp. 320-329. Springer.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1007/978-3-031-80020-7_18</p>
+          </div>
+          
+          <div>
+            <p><strong>Shehu, A.S.</strong> (2024). On the Compliance of Self-Sovereign Identity with GDPR Principles: A Critical Review. <em>arXiv preprint</em> arXiv:2409.03624.</p>
+          </div>
+          
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2023). SPIDVerify: A secure and privacy-preserving decentralised identity verification framework. <em>2023 International Conference on Smart Applications, Communications and Networking (SmartNets)</em>, pp. 1-8. IEEE.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1109/SmartNets58706.2023.10215588</p>
+          </div>
+          
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2022). A Decentralised Real Estate Transfer Verification Based on Self-Sovereign Identity and Smart Contract. In: <em>Proceedings of the 19th International Conference on Security and Cryptography (SECRYPT)</em>, pp. 646-653. SCITEPRESS.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.5220/0011315000003283</p>
+          </div>
+          
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2019). Privacy Preservation and Mandate Representation in Identity Management Systems. In: <em>2019 14th Iberian Conference on Information Systems and Technologies (CISTI)</em>, pp. 1-6. IEEE.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.23919/CISTI.2019.8760838</p>
+          </div>
+          
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2018). On the interoperability of european national identity cards. In: <em>International Symposium on Ambient Intelligence</em>, pp. 338-348. Springer, Cham.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1007/978-3-030-01746-0_39</p>
+          </div>
         </div>
       </section>
 

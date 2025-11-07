@@ -268,21 +268,51 @@ export const DownloadableCV = () => {
 
       {/* Key Publications */}
       <section className="mb-6">
-        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">SELECTED PUBLICATIONS</h2>
-        <div className="text-sm space-y-2">
-          <p>• Shehu, A.S., & Schneider, S. (2025). <strong>Decentralised supply chain reputation: A privacy and self-sovereign identity perspective.</strong> IEEE European Symposium on Security and Privacy Workshops (EuroS&PW), 474-484.</p>
+        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4 flex items-center justify-between">
+          <span>SELECTED PUBLICATIONS</span>
+          <a 
+            href="https://scholar.google.com/scholar?q=author:%22Abubakar-Sadiq+Shehu%22+OR+author:%22Muhammad+Shehu+Abubakar-Sadiq%22" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm font-normal text-blue-600 hover:text-blue-800 print:hidden flex items-center gap-1"
+          >
+            View Google Scholar →
+          </a>
+        </h2>
+        <div className="text-sm space-y-3">
+          <div>
+            <p><strong>Shehu, A.S.</strong>, & Schneider, S. (2025). Decentralised supply chain reputation: A privacy and self-sovereign identity perspective. <em>IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)</em>, 474-484.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1109/EuroSPW59978.2024.00059</p>
+          </div>
           
-          <p>• Fraser, A., Shehu, A.S., Frymann, N., Haynes, P., & Schneider, S. (2025). <strong>Privacy-Preserving Photo Sharing: An SSI Use Case.</strong> Information Systems Security, ICISS 2024. Lecture Notes in Computer Science, vol 15416. Springer.</p>
+          <div>
+            <p>Fraser, A., <strong>Shehu, A.S.</strong>, Frymann, N., Haynes, P., & Schneider, S. (2025). Privacy-Preserving Photo Sharing: An SSI Use Case. In: <em>Information Systems Security, ICISS 2024. Lecture Notes in Computer Science</em>, vol 15416, pp. 320-329. Springer.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1007/978-3-031-80020-7_18</p>
+          </div>
           
-          <p>• Shehu, A.S. (2024). <strong>On the Compliance of Self-Sovereign Identity with GDPR Principles: A Critical Review.</strong> arXiv preprint arXiv:2409.03624.</p>
+          <div>
+            <p><strong>Shehu, A.S.</strong> (2024). On the Compliance of Self-Sovereign Identity with GDPR Principles: A Critical Review. <em>arXiv preprint</em> arXiv:2409.03624.</p>
+          </div>
           
-          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2023). <strong>SPIDVerify: A secure and privacy-preserving decentralised identity verification framework.</strong> International Conference on Smart Applications, Communications and Networking (SmartNets).</p>
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2023). SPIDVerify: A secure and privacy-preserving decentralised identity verification framework. <em>2023 International Conference on Smart Applications, Communications and Networking (SmartNets)</em>, pp. 1-8. IEEE.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1109/SmartNets58706.2023.10215588</p>
+          </div>
           
-          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2022). <strong>A Decentralised Real Estate Transfer Verification Based on Self-Sovereign Identity and Smart Contract.</strong> 19th International Conference on Security and Cryptography, Lisbon.</p>
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2022). A Decentralised Real Estate Transfer Verification Based on Self-Sovereign Identity and Smart Contract. In: <em>Proceedings of the 19th International Conference on Security and Cryptography (SECRYPT)</em>, pp. 646-653. SCITEPRESS.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.5220/0011315000003283</p>
+          </div>
           
-          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2019). <strong>Privacy Preservation and Mandate Representation in Identity Management Systems.</strong> 14th Iberian Conference on Information Systems and Technologies (CISTI), Coimbra.</p>
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2019). Privacy Preservation and Mandate Representation in Identity Management Systems. In: <em>2019 14th Iberian Conference on Information Systems and Technologies (CISTI)</em>, pp. 1-6. IEEE.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.23919/CISTI.2019.8760838</p>
+          </div>
           
-          <p>• Shehu, A.S., Pinto, A., & Correia, M.E. (2018). <strong>On the interoperability of european national identity cards.</strong> International Symposium on Ambient Intelligence, 338-348. Springer.</p>
+          <div>
+            <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2018). On the interoperability of european national identity cards. In: <em>International Symposium on Ambient Intelligence</em>, pp. 338-348. Springer, Cham.</p>
+            <p className="text-gray-600 text-xs ml-4">DOI: 10.1007/978-3-030-01746-0_39</p>
+          </div>
         </div>
       </section>
 
