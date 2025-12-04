@@ -37,7 +37,6 @@ export const DownloadableCVQualityGuardian = () => {
             <MapPin className="h-4 w-4" />
             Porto, Portugal
           </span>
-          <span className="text-sm">EU Work Authorization</span>
         </div>
       </header>
 
