@@ -26,7 +26,7 @@ export const DownloadableCVQualityGuardian = () => {
 
       {/* Header */}
       <header className="border-b-2 border-gray-800 pb-4 mb-6">
-        <h1 className="text-3xl font-bold text-gray-900 mb-1">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-1">Muhammad Shehu Abubakar-(Sadiq) PhD</h1>
         <p className="text-lg text-primary font-semibold mb-3">Information Security & Risk Management Professional</p>
         <div className="flex flex-wrap gap-4 text-sm text-gray-600">
           <span className="flex items-center gap-1">
