@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CV from "./pages/CV";
 import CVQualityGuardian from "./pages/CVQualityGuardian";
+import CoverLetterQualityGuardian from "./pages/CoverLetterQualityGuardian";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/cv-quality-guardian" element={<CVQualityGuardian />} />
+          <Route path="/cover-letter-quality-guardian" element={<CoverLetterQualityGuardian />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
