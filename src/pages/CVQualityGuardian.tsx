@@ -9,7 +9,7 @@ const CVQualityGuardian = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-4 flex gap-4">
         <Button 
           variant="outline" 
           onClick={() => navigate('/')}
@@ -17,6 +17,12 @@ const CVQualityGuardian = () => {
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back to Portfolio
+        </Button>
+        <Button 
+          onClick={() => navigate('/cover-letter-quality-guardian')}
+          className="bg-primary hover:bg-primary/90"
+        >
+          View Cover Letter
         </Button>
       </div>
 
