@@ -35,8 +35,9 @@ export const DownloadableCVQualityGuardian = () => {
           </span>
           <span className="flex items-center gap-1">
             <MapPin className="h-4 w-4" />
-            Porto, Portugal | EU Work Authorization
+            Porto, Portugal
           </span>
+          <span className="text-sm">EU Work Authorization</span>
         </div>
       </header>
 
@@ -226,7 +227,6 @@ export const DownloadableCVQualityGuardian = () => {
         <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
           <li>Available for remote and hybrid work arrangements</li>
           <li>Available for travel within Portugal and abroad</li>
-          <li>Immediate availability to start</li>
         </ul>
       </section>
     </div>
