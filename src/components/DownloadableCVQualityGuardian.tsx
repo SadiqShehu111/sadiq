@@ -45,10 +45,10 @@ export const DownloadableCVQualityGuardian = () => {
         <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">PROFESSIONAL SUMMARY</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
           Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
-          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 8 years of combined experience 
+          Expert in threat modeling, risk assessment frameworks (Privacy principles, ISO 27001), and Security by Design methodologies. Over 8 years of combined experience 
           in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. Proven track record 
           in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices. 
-          Strong background in Agile methodologies (Scrum, Kanban) with excellent documentation and audit skills.
+          Strong background in Agile methodologies with excellent documentation and audit skills.
         </p>
       </section>
 
