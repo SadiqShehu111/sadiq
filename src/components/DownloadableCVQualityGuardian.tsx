@@ -113,7 +113,7 @@ export const DownloadableCVQualityGuardian = () => {
             <h3 className="font-semibold text-gray-800">Cyber Security Post Doctoral Research Fellow</h3>
             <span className="text-sm text-gray-600">Oct 2024 – Present</span>
           </div>
-          <p className="text-sm text-primary mb-1">Universidade Portucalense, Porto, Portugal</p>
+          <p className="text-sm text-primary mb-1">Centre for Cyber Security, University of Surrey, UK</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
             <li>Conduct security research ensuring compliance with academic and industry quality standards</li>
             <li>Develop comprehensive documentation and methodological frameworks for research outputs</li>
@@ -128,7 +128,7 @@ export const DownloadableCVQualityGuardian = () => {
             <h3 className="font-semibold text-gray-800">Fraud Prevention Specialist</h3>
             <span className="text-sm text-gray-600">Jan 2024 – Oct 2024</span>
           </div>
-          <p className="text-sm text-primary mb-1">Talkdesk Inc, Lisbon, Portugal</p>
+          <p className="text-sm text-primary mb-1">Apple (via Majorel), Lisbon, Portugal</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
             <li>Established quality control processes for fraud detection systems aligned with ISO 27001</li>
             <li>Conducted security audits and compliance assessments</li>
@@ -175,11 +175,10 @@ export const DownloadableCVQualityGuardian = () => {
         
         <div className="mb-2">
           <div className="flex justify-between items-start">
-            <h3 className="font-semibold text-gray-800">PhD in Computer Science</h3>
+            <h3 className="font-semibold text-gray-800">PhD in Computer Science (Information Security)</h3>
             <span className="text-sm text-gray-600">2021 – 2024</span>
           </div>
-          <p className="text-sm text-gray-700">Universidade Portucalense, Porto, Portugal</p>
-          <p className="text-sm text-gray-600 italic">Focus: Deep Learning, Information Security, Identity Management</p>
+          <p className="text-sm text-gray-700">University of Surrey, UK</p>
         </div>
 
         <div className="mb-2">
@@ -192,7 +191,7 @@ export const DownloadableCVQualityGuardian = () => {
 
         <div className="mb-2">
           <div className="flex justify-between items-start">
-            <h3 className="font-semibold text-gray-800">Bachelor of Science in Computer Science</h3>
+            <h3 className="font-semibold text-gray-800">Bachelor of Computer Science (Digital Systems Security)</h3>
             <span className="text-sm text-gray-600">2009 – 2014</span>
           </div>
           <p className="text-sm text-gray-700">Bayero University Kano, Nigeria</p>
@@ -209,9 +208,8 @@ export const DownloadableCVQualityGuardian = () => {
       <section className="mb-6">
         <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">AVAILABILITY</h2>
         <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
-          <li>Available to work at office 3 times per week in Lisbon</li>
-          <li>Available for operations outside working hours with applicable compensation</li>
-          <li>Available to travel within Portugal and abroad</li>
+          <li>Available for remote and hybrid work arrangements</li>
+          <li>Available for travel within Portugal and abroad</li>
           <li>Immediate availability to start</li>
         </ul>
       </section>
