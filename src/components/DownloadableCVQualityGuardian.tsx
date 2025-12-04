@@ -71,8 +71,6 @@ export const DownloadableCVQualityGuardian = () => {
             <h3 className="font-semibold text-gray-800 mb-1">Agile & Process Management</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-0.5">
               <li>Scrum Framework</li>
-              <li>Kanban Methodology</li>
-              <li>Sprint Planning & Retrospectives</li>
               <li>Process Documentation</li>
               <li>Continuous Improvement</li>
               <li>Quality Assurance Frameworks</li>
