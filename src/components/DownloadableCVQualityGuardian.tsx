@@ -31,7 +31,7 @@ export const DownloadableCVQualityGuardian = () => {
         <div className="flex flex-wrap gap-4 text-sm text-gray-600">
           <span className="flex items-center gap-1">
             <Mail className="h-4 w-4" />
-            s.muhammad@surrey.ac.uk
+            tancy62@yahoo.com
           </span>
           <span className="flex items-center gap-1">
             <MapPin className="h-4 w-4" />
