@@ -1,4 +1,4 @@
-import { Download, Mail, MapPin, Globe, ExternalLink } from "lucide-react";
+import { Download, Mail, MapPin, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const DownloadableCVQualityGuardian = () => {
@@ -26,20 +26,16 @@ export const DownloadableCVQualityGuardian = () => {
 
       {/* Header */}
       <header className="border-b-2 border-gray-800 pb-4 mb-6">
-        <h1 className="text-3xl font-bold text-gray-900 mb-1">Muhammad Sabubakar Sadiq</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-1">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
         <p className="text-lg text-primary font-semibold mb-3">Information Security & Risk Management Professional</p>
         <div className="flex flex-wrap gap-4 text-sm text-gray-600">
           <span className="flex items-center gap-1">
             <Mail className="h-4 w-4" />
-            msabubakar-sadiq.it@buk.edu.ng
+            s.muhammad@surrey.ac.uk
           </span>
           <span className="flex items-center gap-1">
             <MapPin className="h-4 w-4" />
-            Porto, Portugal
-          </span>
-          <span className="flex items-center gap-1">
-            <Globe className="h-4 w-4" />
-            Nigerian | EU Work Authorization
+            Porto, Portugal | EU Work Authorization
           </span>
         </div>
       </header>
@@ -48,12 +44,11 @@ export const DownloadableCVQualityGuardian = () => {
       <section className="mb-6">
         <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">PROFESSIONAL SUMMARY</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          Information Security and Risk Management specialist with 8+ years of experience in cybersecurity research, 
-          fraud prevention, and compliance frameworks. Proven expertise in implementing security quality systems, 
-          conducting risk assessments, and ensuring compliance with international standards (ISO 27001, GDPR). 
-          Strong background in Agile methodologies (Scrum, Kanban) with excellent documentation and audit skills. 
-          Published researcher in identity management and security systems with a track record of delivering 
-          quality-focused security solutions in enterprise environments.
+          Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
+          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 8 years of combined experience 
+          in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. Proven track record 
+          in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices. 
+          Strong background in Agile methodologies (Scrum, Kanban) with excellent documentation and audit skills.
         </p>
       </section>
 
@@ -65,10 +60,11 @@ export const DownloadableCVQualityGuardian = () => {
             <h3 className="font-semibold text-gray-800 mb-1">Security & Compliance</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-0.5">
               <li>ISO 27001 Information Security</li>
-              <li>Risk Assessment & Mitigation</li>
+              <li>Risk Assessment & Mitigation (FAIR)</li>
               <li>GDPR Compliance</li>
               <li>Security Auditing</li>
-              <li>Fraud Detection Systems</li>
+              <li>Fraud Detection & Prevention</li>
+              <li>Forensic Investigation</li>
             </ul>
           </div>
           <div>
@@ -79,16 +75,17 @@ export const DownloadableCVQualityGuardian = () => {
               <li>Sprint Planning & Retrospectives</li>
               <li>Process Documentation</li>
               <li>Continuous Improvement</li>
+              <li>Quality Assurance Frameworks</li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold text-gray-800 mb-1">Technical Skills</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-0.5">
-              <li>Deep Learning & Machine Learning</li>
-              <li>Identity Management Systems</li>
-              <li>Python, SQL</li>
-              <li>Security Architecture</li>
-              <li>Data Analysis & Reporting</li>
+              <li>Identity Management (OAuth, SAML)</li>
+              <li>Security by Design Methodology</li>
+              <li>Python, Java, SQL</li>
+              <li>Data Analytics & Visualization</li>
+              <li>Linux/Ubuntu/Windows Systems</li>
             </ul>
           </div>
           <div>
@@ -97,7 +94,7 @@ export const DownloadableCVQualityGuardian = () => {
               <li>Technical Documentation</li>
               <li>Quality Management Systems</li>
               <li>Template & Process Creation</li>
-              <li>Peer Review & Validation</li>
+              <li>Security Standards & Playbooks</li>
               <li>Stakeholder Communication</li>
             </ul>
           </div>
@@ -111,62 +108,73 @@ export const DownloadableCVQualityGuardian = () => {
         <div className="mb-4">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-semibold text-gray-800">Cyber Security Post Doctoral Research Fellow</h3>
-            <span className="text-sm text-gray-600">Oct 2024 – Present</span>
+            <span className="text-sm text-gray-600">May 2024 – Present</span>
           </div>
-          <p className="text-sm text-primary mb-1">Centre for Cyber Security, University of Surrey, UK</p>
+          <p className="text-sm text-primary mb-1">University of Surrey - DECADE: Centre for Cyber Security</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
-            <li>Conduct security research ensuring compliance with academic and industry quality standards</li>
-            <li>Develop comprehensive documentation and methodological frameworks for research outputs</li>
-            <li>Perform systematic reviews and quality audits on research deliverables</li>
-            <li>Collaborate with cross-functional teams using Agile methodologies</li>
-            <li>Published peer-reviewed research in identity management and information security</li>
+            <li>Deliver undergraduate and postgraduate teaching in cybersecurity and information security</li>
+            <li>Design course materials, assignments, and assessments for complex security concepts</li>
+            <li>Supervise and mentor MSc and PhD students in security research projects</li>
+            <li>Lead research in decentralized identity systems and privacy-preserving technologies</li>
+            <li>Publish in top-tier security journals (IEEE) and present at international conferences</li>
+          </ul>
+        </div>
+
+        <div className="mb-4">
+          <div className="flex justify-between items-start mb-1">
+            <h3 className="font-semibold text-gray-800">External Researcher - Information Security & Identity Management</h3>
+            <span className="text-sm text-gray-600">March 2022 – March 2024</span>
+          </div>
+          <p className="text-sm text-primary mb-1">INESC TEC Porto (CRACS)</p>
+          <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
+            <li>Conducted research on identity management, data privacy, and data governance</li>
+            <li>Implemented security protocols and standards (OAuth, SAML) for compliance</li>
+            <li>Ensured compliance with GDPR, NIST, and ISO security standards</li>
+            <li>Developed secure identity management solutions for enterprise environments</li>
+            <li>Managed incident response and risk assessment procedures</li>
           </ul>
         </div>
 
         <div className="mb-4">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-semibold text-gray-800">Fraud Prevention Specialist</h3>
-            <span className="text-sm text-gray-600">Jan 2024 – Oct 2024</span>
+            <span className="text-sm text-gray-600">June 2020 – March 2022</span>
           </div>
-          <p className="text-sm text-primary mb-1">Apple (via Majorel), Lisbon, Portugal</p>
+          <p className="text-sm text-primary mb-1">Apple Inc. (Via Majorel Portugal)</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
-            <li>Established quality control processes for fraud detection systems aligned with ISO 27001</li>
-            <li>Conducted security audits and compliance assessments</li>
-            <li>Developed and maintained security process documentation and templates</li>
-            <li>Worked within Scrum teams, participating in sprint planning and retrospectives</li>
-            <li>Implemented continuous improvement initiatives reducing false positive rates by 30%</li>
-            <li>Created risk assessment frameworks and mitigation procedures</li>
+            <li>Led fraud prevention and detection across all payment channels protecting millions in assets</li>
+            <li>Identified fraud patterns through analysis of high-risk countries and merchant activities</li>
+            <li>Created fraud rules by providing analytical data to support decision-making processes</li>
+            <li>Reviewed alerts from external sources (VISA CAMS, FICO) and executed fraud mitigation</li>
+            <li>Prepared comprehensive reports for Risk Management teams and stakeholders</li>
           </ul>
         </div>
 
         <div className="mb-4">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-semibold text-gray-800">Relationship and Risk Officer</h3>
-            <span className="text-sm text-gray-600">Oct 2015 – Sep 2016</span>
+            <span className="text-sm text-gray-600">July 2013 – February 2015</span>
           </div>
-          <p className="text-sm text-primary mb-1">Unity Bank PLC, Nigeria</p>
+          <p className="text-sm text-primary mb-1">Unity Bank PLC</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
-            <li>Performed risk assessments and compliance audits aligned with banking regulations</li>
-            <li>Developed and documented risk mitigation procedures and quality controls</li>
-            <li>Ensured adherence to regulatory requirements and industry standards</li>
-            <li>Conducted internal audits and quality reviews of operational processes</li>
+            <li>Conducted customer due diligence and know-your-customer (KYC) checks</li>
+            <li>Identified potential IT risks and vulnerabilities within bank's technology systems</li>
+            <li>Developed and implemented cybersecurity strategies to safeguard IT assets</li>
+            <li>Ensured IT practices aligned with industry regulations and cybersecurity standards</li>
+            <li>Developed risk mitigation strategies including control mechanisms and procedures</li>
           </ul>
         </div>
       </section>
 
-      {/* Research & Publications */}
+      {/* Selected Publications */}
       <section className="mb-6">
-        <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">RESEARCH & PUBLICATIONS</h2>
-        <p className="text-sm text-gray-700 mb-2">
-          Published researcher with peer-reviewed publications in identity management, information security, 
-          and deep learning applications. Research demonstrates strong documentation skills, systematic methodology, 
-          and quality-focused approach to technical deliverables.
-        </p>
-        <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
-          <li>Research focus: Identity verification systems, security frameworks, machine learning in security</li>
-          <li>Contributions to EU Horizon 2020 projects (NANSTIMA, DECADE Centre)</li>
-          <li>SPIDVerify: Identity management system research</li>
-        </ul>
+        <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">SELECTED PUBLICATIONS</h2>
+        <div className="text-xs space-y-2">
+          <p><strong>Shehu, A.S.</strong>, & Schneider, S. (2025). Decentralised supply chain reputation: A privacy and self-sovereign identity perspective. <em>IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)</em>, 474-484.</p>
+          <p>Fraser, A., <strong>Shehu, A.S.</strong>, et al. (2025). Privacy-Preserving Photo Sharing: An SSI Use Case. <em>ICISS 2024. Lecture Notes in Computer Science</em>, vol 15416, Springer.</p>
+          <p><strong>Shehu, A.S.</strong> (2024). On the Compliance of Self-Sovereign Identity with GDPR Principles: A Critical Review. <em>arXiv preprint</em>.</p>
+          <p><strong>Shehu, A.S.</strong>, Pinto, A., & Correia, M.E. (2023). SPIDVerify: A secure and privacy-preserving decentralised identity verification framework. <em>IEEE SmartNets</em>.</p>
+        </div>
       </section>
 
       {/* Education */}
@@ -175,36 +183,44 @@ export const DownloadableCVQualityGuardian = () => {
         
         <div className="mb-2">
           <div className="flex justify-between items-start">
-            <h3 className="font-semibold text-gray-800">PhD in Computer Science (Information Security)</h3>
-            <span className="text-sm text-gray-600">2021 – 2024</span>
+            <h3 className="font-semibold text-gray-800">PhD in Computer Science - Information Systems Security</h3>
+            <span className="text-sm text-gray-600">2017 – 2023</span>
           </div>
-          <p className="text-sm text-gray-700">University of Surrey, UK</p>
+          <p className="text-sm text-gray-700">University of Porto, Portugal</p>
+          <p className="text-xs text-gray-600 italic">Thesis: "Establishing Secure and Privacy-Preserving Digital Identity with Self Sovereign Identity"</p>
         </div>
 
         <div className="mb-2">
           <div className="flex justify-between items-start">
-            <h3 className="font-semibold text-gray-800">Master of Science in Computer Science</h3>
-            <span className="text-sm text-gray-600">2017 – 2019</span>
+            <h3 className="font-semibold text-gray-800">Master of Science - Business Information Systems</h3>
+            <span className="text-sm text-gray-600">2011 – 2012</span>
           </div>
-          <p className="text-sm text-gray-700">Bayero University Kano, Nigeria</p>
+          <p className="text-sm text-gray-700">University of East London, United Kingdom</p>
         </div>
 
         <div className="mb-2">
           <div className="flex justify-between items-start">
-            <h3 className="font-semibold text-gray-800">Bachelor of Computer Science (Digital Systems Security)</h3>
-            <span className="text-sm text-gray-600">2009 – 2014</span>
+            <h3 className="font-semibold text-gray-800">Bachelor of Computer Science - Digital Systems Security</h3>
+            <span className="text-sm text-gray-600">2007 – 2011</span>
           </div>
-          <p className="text-sm text-gray-700">Bayero University Kano, Nigeria</p>
+          <p className="text-sm text-gray-700">University of Wollongong, Australia</p>
         </div>
       </section>
 
-      {/* Languages */}
+      {/* Certifications */}
       <section className="mb-6">
-        <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">LANGUAGES</h2>
-        <p className="text-sm text-gray-700">English (Fluent) | Hausa (Native) | Portuguese (Basic - Learning)</p>
+        <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">CERTIFICATIONS & TRAINING</h2>
+        <div className="grid grid-cols-2 gap-2 text-sm text-gray-700">
+          <div>• Information Security and Data Privacy</div>
+          <div>• CCNA Training</div>
+          <div>• Security+ Training</div>
+          <div>• CEH (Certified Ethical Hacker) Training</div>
+          <div>• GDPR Compliance</div>
+          <div>• ISO Security Standards</div>
+        </div>
       </section>
 
-      {/* Additional Information */}
+      {/* Availability */}
       <section className="mb-6">
         <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 pb-1 mb-3">AVAILABILITY</h2>
         <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
