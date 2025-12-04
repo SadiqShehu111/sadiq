@@ -74,6 +74,15 @@ export const CoverLetterQualityGuardian = () => {
         </p>
 
         <p>
+          Currently, I am collaborating on secured supply chain research for British industries, where I have authored 
+          several frameworks addressing supply chain security and quality assurance. One of these frameworks was presented 
+          at the prestigious IEEE European Symposium on Security and Privacy (EURO S&P) 2025, and another is scheduled 
+          for presentation at the Panhellenic Supply Chain and Logistics Conference in Greece in December 2025. This 
+          work demonstrates my commitment to developing practical, industry-relevant quality and security frameworks 
+          that meet international standards.
+        </p>
+
+        <p>
           During my tenure as a Fraud Prevention Specialist at Apple (via Majorel), I honed my abilities in process 
           documentation, risk assessment, and cross-functional stakeholder communication. I led initiatives to create 
           fraud detection playbooks, developed analytical frameworks for decision-making, and prepared comprehensive 
