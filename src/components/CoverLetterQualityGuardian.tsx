@@ -66,11 +66,13 @@ export const CoverLetterQualityGuardian = () => {
         </p>
 
         <p>
-          My background uniquely positions me to excel in this role. As a Cyber Security Post Doctoral Research Fellow 
-          at the University of Surrey's DECADE Centre, I have developed expertise in designing comprehensive documentation, 
-          creating assessment frameworks, and mentoring teams on complex technical concepts. My work involves translating 
-          intricate security requirements into actionable processes and ensuring alignment with international standards 
-          such as ISO 27001 and GDPR—skills directly transferable to quality management in automotive software development.
+          My background uniquely positions me to excel in this role. Currently serving as a Teaching Fellow in Cyber Security 
+          at the University of Leicester, where my research focuses on secure digital content provenance, decentralised identity 
+          management, and GDPR-compliant trust systems, and previously as a Post Doctoral Research Fellow at the University of 
+          Surrey's DECADE Centre, I have developed expertise in designing comprehensive documentation, creating assessment 
+          frameworks, and mentoring teams on complex technical concepts. My work involves translating intricate security 
+          requirements into actionable processes and ensuring alignment with international standards such as ISO 27001 and 
+          GDPR—skills directly transferable to quality management in automotive software development.
         </p>
 
         <p>
