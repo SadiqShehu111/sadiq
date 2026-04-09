@@ -35,7 +35,7 @@ export const DownloadableCV = () => {
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
           Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
-          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 8 years of combined experience 
+          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 12 years of combined experience 
           in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. Proven track record 
           in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices across organizations. 
           Strong analytical mindset with demonstrated success in applying statistical models to risk frameworks, developing key risk indicators, and presenting 
