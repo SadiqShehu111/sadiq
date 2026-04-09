@@ -17,7 +17,7 @@ export const DownloadableCV = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-blue-600" />
-            <span>s.muhammad@surrey.ac.uk</span>
+            <span>msabubakar-sadiq.it@buk.edu.ng</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-blue-600" />
