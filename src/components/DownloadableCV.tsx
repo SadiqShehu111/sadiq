@@ -21,7 +21,7 @@ export const DownloadableCV = () => {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-blue-600" />
-            <span>Travessa da Via Sacra 84, 2esq, Porto, 4200-522, Portugal</span>
+            <span>Department of Information Technology, Bayero University Kano, Nigeria</span>
           </div>
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-blue-600" />
@@ -201,7 +201,8 @@ export const DownloadableCV = () => {
           <div className="flex justify-between items-start mb-2">
             <div>
               <h3 className="font-bold">Lecturer - Information Technology & Cybersecurity</h3>
-              <p className="text-blue-600">Bayero University Kano, Nigeria</p>
+              <p className="text-blue-600">Department of Information Technology, Bayero University Kano, Nigeria</p>
+              <p className="text-xs text-gray-500 italic">Pioneer staff at the Faculty of Computer Science with Cybersecurity background</p>
             </div>
             <span className="text-sm text-gray-600">May 2015 – 2023</span>
           </div>
