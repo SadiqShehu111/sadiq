@@ -105,8 +105,22 @@ export const DownloadableCVQualityGuardian = () => {
         
         <div className="mb-4">
           <div className="flex justify-between items-start mb-1">
+            <h3 className="font-semibold text-gray-800">Teaching Fellow - Cyber Security</h3>
+            <span className="text-sm text-gray-600">January 2026 – Present</span>
+          </div>
+          <p className="text-sm text-primary mb-1">University of Leicester - School of Computing and Mathematical Sciences</p>
+          <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
+            <li>Deliver undergraduate and postgraduate teaching in cybersecurity and computer science</li>
+            <li>Research focus on secure digital content provenance, decentralised identity management, and GDPR-compliant trust systems</li>
+            <li>Design course materials, assignments, and assessments for complex security concepts</li>
+            <li>Supervise and mentor students in security research projects</li>
+          </ul>
+        </div>
+
+        <div className="mb-4">
+          <div className="flex justify-between items-start mb-1">
             <h3 className="font-semibold text-gray-800">Cyber Security Post Doctoral Research Fellow</h3>
-            <span className="text-sm text-gray-600">May 2024 – Present</span>
+            <span className="text-sm text-gray-600">May 2024 – December 2025</span>
           </div>
           <p className="text-sm text-primary mb-1">University of Surrey - DECADE: Centre for Cyber Security</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-0.5">
