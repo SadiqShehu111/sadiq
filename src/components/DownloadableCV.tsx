@@ -36,11 +36,14 @@ export const DownloadableCV = () => {
         <p className="text-gray-700 leading-relaxed">
           Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
           Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 12 years of combined experience 
-          in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. Proven track record 
-          in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices across organizations. 
-          Strong analytical mindset with demonstrated success in applying statistical models to risk frameworks, developing key risk indicators, and presenting 
-          security risk analyses to senior leadership. Expert in regulatory compliance (GDPR, ISO), identity management systems, and cross-functional 
-          collaboration to drive security improvements.
+          in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. 
+          Co-team researcher on the Nanostima project (€2.5M EU Horizon 2020) at INESC TEC Portugal, which developed secure health data infrastructure 
+          used during COVID vaccine tracking and monitoring. Researcher on the DECaDE project (£6M), currently under review by the British government 
+          and presented to stakeholders in the House of Lords for a secure digital economy in supply chain. 
+          Proven track record in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices 
+          across organizations. Strong analytical mindset with demonstrated success in applying statistical models to risk frameworks, developing key risk 
+          indicators, and presenting security risk analyses to senior leadership. Expert in regulatory compliance (GDPR, ISO), identity management systems, 
+          and cross-functional collaboration to drive security improvements.
         </p>
       </section>
 
