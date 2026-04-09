@@ -80,6 +80,7 @@ export const DownloadableCV = () => {
           </div>
           <ul className="list-disc ml-6 text-sm space-y-1">
             <li>Deliver undergraduate and postgraduate teaching in cybersecurity and computer science</li>
+            <li>Co-team researcher on the Nanostime project (part of €2.5M EU Horizon 2020 funding programme)</li>
             <li>Research focus on secure digital content provenance, decentralised identity management, and GDPR-compliant trust systems</li>
             <li>Design course materials, assignments, and assessments for complex security concepts</li>
             <li>Supervise and mentor students in security research projects</li>
@@ -90,7 +91,7 @@ export const DownloadableCV = () => {
           <div className="flex justify-between items-start mb-2">
             <div>
               <h3 className="font-bold">Cyber Security Post Doctoral Research Fellow</h3>
-              <p className="text-blue-600">University of Surrey - DECADE: Centre for Cyber Security</p>
+              <p className="text-blue-600">University of Surrey - DECaDE: Centre for Cyber Security (£6M funded programme)</p>
             </div>
             <span className="text-sm text-gray-600">May 2024 – December 2025</span>
           </div>
