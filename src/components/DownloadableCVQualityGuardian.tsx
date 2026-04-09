@@ -16,7 +16,7 @@ export const DownloadableCVQualityGuardian = () => {
         </Button>
         <Button 
           variant="outline" 
-          onClick={() => window.open('https://scholar.google.com/citations?user=msabubakar-sadiq', '_blank')}
+          onClick={() => window.open('https://scholar.google.com/citations?user=KvC0u1oAAAAJ&hl=en&oi=ao', '_blank')}
           className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
         >
           <ExternalLink className="mr-2 h-4 w-4" />
