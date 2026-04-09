@@ -34,16 +34,12 @@ export const DownloadableCV = () => {
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
-          Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
-          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 12 years of combined experience 
-          in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. 
-          Co-team researcher on the Nanostima project (€2.5M EU Horizon 2020) at INESC TEC Portugal, which developed secure health data infrastructure 
-          used during COVID vaccine tracking and monitoring. Researcher on the DECaDE project (£6M), currently under review by the British government 
-          and presented to stakeholders in the House of Lords for a secure digital economy in supply chain. 
-          Proven track record in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices 
-          across organizations. Strong analytical mindset with demonstrated success in applying statistical models to risk frameworks, developing key risk 
-          indicators, and presenting security risk analyses to senior leadership. Expert in regulatory compliance (GDPR, ISO), identity management systems, 
-          and cross-functional collaboration to drive security improvements.
+          Cybersecurity researcher and educator with a PhD in Computer Science and over 12 years of experience across academia and industry. 
+          Co-team researcher on Nanostima (€2.5M EU Horizon 2020, INESC TEC), developing secure health data infrastructure used for Portugal's 
+          COVID vaccine tracking, and on DECaDE (£6M), presented to the House of Lords for secure digital economy in supply chain. 
+          Expertise in identity management, privacy-preserving systems, risk assessment (FAIR, ISO 27001), fraud prevention, and regulatory 
+          compliance (GDPR). Proven track record in securing research funding, publishing in top-tier venues (IEEE), and translating research 
+          into real-world impact.
         </p>
       </section>
 
