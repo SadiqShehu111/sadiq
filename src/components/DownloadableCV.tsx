@@ -320,9 +320,10 @@ export const DownloadableCV = () => {
       {/* Languages */}
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">LANGUAGES</h2>
-        <div className="grid grid-cols-2 gap-4 text-sm">
-          <div><strong>English:</strong> Native/Fluent</div>
-          <div><strong>Portuguese:</strong> Fluent</div>
+        <div className="grid grid-cols-3 gap-4 text-sm">
+          <div><strong>Hausa:</strong> Native/Fluent</div>
+          <div><strong>Yoruba:</strong> Fluent</div>
+          <div><strong>English:</strong> Fluent</div>
         </div>
       </section>
 
