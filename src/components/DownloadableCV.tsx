@@ -35,7 +35,7 @@ export const DownloadableCV = () => {
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
           Accomplished security risk management specialist with PhD in Computer Science and extensive experience spanning academia, research, and industry. 
-          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 12 years of combined experience 
+          Expert in threat modeling, risk assessment frameworks (FAIR, ISO 27001), and Security by Design methodologies. Over 8 years of combined experience 
           in academic research, teaching, and industry roles including fraud prevention, forensic investigations, and risk management. Proven track record 
           in leading quantified risk assessments, developing security standards and playbooks, and implementing risk management practices across organizations. 
           Strong analytical mindset with demonstrated success in applying statistical models to risk frameworks, developing key risk indicators, and presenting 
@@ -46,37 +46,63 @@ export const DownloadableCV = () => {
 
       {/* Key Competencies */}
       <section className="mb-6">
-        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">KEY COMPETENCIES</h2>
+        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">KEY COMPETENCIES & SKILLS</h2>
         
         <div className="mb-4">
-          <h3 className="font-semibold text-sm mb-2">Research</h3>
+          <h3 className="font-semibold text-sm mb-2">Teaching & Research Excellence</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
-            <div>• Cybersecurity & Privacy Research</div>
-            <div>• Academic Publishing (IEEE, Springer)</div>
+            <div>• Curriculum Development & Delivery</div>
+            <div>• Graduate Student Supervision</div>
+            <div>• Academic Publishing & Peer Review</div>
+            <div>• Complex Problem Analysis</div>
             <div>• Research Project Management</div>
-            <div>• Decentralised Identity Systems</div>
-            <div>• GDPR-Compliant Trust Systems</div>
-            <div>• Digital Content Provenance</div>
+            <div>• Cross-Functional Collaboration</div>
           </div>
         </div>
 
         <div className="mb-4">
-          <h3 className="font-semibold text-sm mb-2">Teaching</h3>
+          <h3 className="font-semibold text-sm mb-2">Security Risk Management & Frameworks</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
-            <div>• Curriculum Design & Delivery</div>
-            <div>• Postgraduate Supervision (20+ students)</div>
-            <div>• Assessment & Quality Assurance</div>
-            <div>• Cross-Cultural Communication</div>
+            <div>• Risk Management Frameworks (FAIR)</div>
+            <div>• Threat Modeling & Risk Assessment</div>
+            <div>• Quantified Risk Analysis</div>
+            <div>• Security by Design Methodology</div>
+            <div>• Secure Development Lifecycle (SDL)</div>
+            <div>• Key Risk Indicators (KRI) Development</div>
+            <div>• Security Audits & Compliance</div>
+            <div>• Regulatory Compliance (GDPR, ISO 27001)</div>
+            <div>• Fraud Detection & Prevention</div>
+            <div>• Forensic Investigation</div>
+            <div>• Identity & Access Management</div>
+            <div>• Security Standards & Playbooks</div>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold text-sm mb-2">Technical & Analytical</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+            <div>• Problem Solving & Critical Thinking</div>
+            <div>• Attention to Detail</div>
+            <div>• OAuth, SAML, OpenID Connect</div>
+            <div>• Linux/Ubuntu/Windows Systems</div>
+            <div>• Data Analytics & Visualization</div>
+            <div>• Python, Java, C++</div>
+            <div>• Quality Assurance Frameworks</div>
           </div>
         </div>
 
         <div>
-          <h3 className="font-semibold text-sm mb-2">Technical</h3>
+          <h3 className="font-semibold text-sm mb-2">Leadership & Communication</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
-            <div>• Identity Management (OAuth, SAML)</div>
-            <div>• Python, Java, C++</div>
-            <div>• Risk Assessment & Compliance</div>
-            <div>• Data Analytics & Visualization</div>
+            <div>• Team Leadership & Mentorship</div>
+            <div>• Cross-Functional Collaboration</div>
+            <div>• Security Thought Leadership</div>
+            <div>• Executive Presentation Skills</div>
+            <div>• Risk Communication to Business</div>
+            <div>• Stakeholder Management</div>
+            <div>• Security Training Development</div>
+            <div>• Goal-Oriented & Results-Driven</div>
+            <div>• Cross-Cultural Communication</div>
           </div>
         </div>
       </section>
