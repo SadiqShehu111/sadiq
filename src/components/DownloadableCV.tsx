@@ -184,7 +184,7 @@ export const DownloadableCV = () => {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-2">
             <div>
-              <h3 className="font-bold">Lecturer II - Information Technology & Cybersecurity</h3>
+              <h3 className="font-bold">Lecturer - Information Technology & Cybersecurity</h3>
               <p className="text-blue-600">Bayero University Kano, Nigeria</p>
             </div>
             <span className="text-sm text-gray-600">May 2015 – 2023</span>
