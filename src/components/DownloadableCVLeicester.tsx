@@ -21,6 +21,7 @@ export const DownloadableCVLeicester = () => {
   };
 
   return (
+    <>
     <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
       {/* Header */}
       <div className="border-b-2 border-blue-600 pb-6 mb-6">
