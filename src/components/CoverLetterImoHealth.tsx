@@ -119,6 +119,11 @@ export const CoverLetterImoHealth = () => {
               capacity-building experience that translate directly into staff awareness programmes and
               cross-functional collaboration with clinical, IT and administrative teams.
             </li>
+            <li>
+              <strong>Global thought leadership:</strong> invited speaker delivering cybersecurity,
+              data protection and digital-trust talks across Africa, Europe and Asia to policy makers,
+              business leaders and academic audiences.
+            </li>
           </ul>
 
           <p>
