@@ -88,7 +88,7 @@ export const DownloadableCVPortuguese = () => {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-2">
             <div>
-              <h3 className="font-bold">Fraud Prevention Specialist</h3>
+              <h3 className="font-bold">Fraud Prevention Consultant</h3>
               <p className="text-blue-600">Apple Inc. (Via Majorel Portugal)</p>
             </div>
             <span className="text-sm text-gray-600">June 2020 – March 2022</span>

@@ -27,7 +27,7 @@ const CVSection = () => {
       title: "Leadership & Impact",
       items: [
         "Lecturer at Bayero University Kano",
-        "Fraud Prevention Specialist at Apple",
+        "Fraud Prevention Consultant at Apple",
         "Multilingual expertise: English, Hausa, Yoruba, Portuguese"
       ]
     }
