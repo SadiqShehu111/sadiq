@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Download, Mail, MapPin, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import html2pdf from 'html2pdf.js';
 
 export const DownloadableCVLeicester = () => {
-  const handleDownload = () => window.print();
+  const cvRef = useRef<HTMLDivElement>(null);
+
+  const handleDownload = () => {
+    if (!cvRef.current) return;
+    html2pdf()
+      .set({
+        margin: 10,
+        filename: 'Dr_Muhammad_Shehu_Abubakar-Sadiq_CV_Leicester.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] },
+      })
+      .from(cvRef.current)
+      .save();
+  };
 
   return (
-    <div className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
+    <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
       {/* Header */}
       <div className="border-b-2 border-blue-600 pb-6 mb-6">
         <h1 className="text-3xl font-bold text-blue-600 mb-1">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
