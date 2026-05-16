@@ -9,22 +9,16 @@ export const DownloadableCVMoniepoint = () => {
     <div className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
       {/* Header */}
       <div className="border-b-2 border-blue-600 pb-6 mb-6">
-        <h1 className="text-3xl font-bold text-blue-600 mb-2">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
-        <p className="text-xl text-gray-600 mb-4">
-          Data Privacy & Protection Officer • PhD in Information Systems Security
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+        <h1 className="text-3xl font-bold text-blue-600 mb-1">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
+        <p className="text-lg text-gray-600 mb-4">PhD</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-blue-600" />
-            <span>s.muhammad@leicester.ac.uk</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <MapPin className="w-4 h-4 text-blue-600" />
-            <span>United Kingdom / Nigeria (open to relocation)</span>
+            <span>msabubakar-sadiq.it@buk.edu.ng</span>
           </div>
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-blue-600" />
-            <span>Nigerian National</span>
+            <span>Nationality: Nigerian</span>
           </div>
         </div>
       </div>
@@ -33,15 +27,40 @@ export const DownloadableCVMoniepoint = () => {
       <section className="mb-6">
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
-          Data privacy and protection specialist with a PhD in Information Systems Security and 12+ years
-          across financial services, academia and global technology. Deep expertise in the Nigeria Data
-          Protection Act (NDPA 2023), NDPC directives, CBN IT standards and GDPR, with hands-on experience
-          conducting DPIAs, managing DSARs, maintaining Records of Processing Activities (RoPA), running
-          breach response, and embedding privacy-by-design across payment and identity systems. Former
-          Fraud Prevention Specialist at Apple (via Majorel) and Risk Officer at Unity Bank PLC, with
-          published research on GDPR-compliant self-sovereign identity and decentralised trust — directly
-          applicable to Moniepoint's mission of securing $182B+ in annual payment flows.
+          Data protection, privacy and fraud-risk professional with 12+ years across financial services,
+          global technology and academia. Former Fraud Prevention Specialist at Apple (via Majorel) and
+          Risk Officer at Unity Bank PLC, with hands-on experience in fraud consulting, payment-channel
+          protection, KYC/AML, and customer-data safeguarding. PhD in Information Systems Security with
+          deep expertise in GDPR, NDPA 2023, NDPC and CBN frameworks — including DPIAs, DSARs, RoPA,
+          breach response, vendor DPAs, encryption, tokenisation and privacy-by-design for payment
+          systems. Published researcher on GDPR-compliant identity and privacy-preserving architectures,
+          directly aligned with Moniepoint's data protection mandate.
         </p>
+      </section>
+
+      {/* Core Competencies */}
+      <section className="mb-6">
+        <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">CORE COMPETENCIES</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+          <div>• NDPA 2023, NDPC & GAID Compliance</div>
+          <div>• CBN IT & Cybersecurity Standards</div>
+          <div>• GDPR & Global Privacy Frameworks</div>
+          <div>• Data Protection Impact Assessments (DPIA)</div>
+          <div>• Data Subject Rights & DSAR Handling</div>
+          <div>• Record of Processing Activities (RoPA)</div>
+          <div>• Data Processing Agreements (DPAs)</div>
+          <div>• Third-Party / Vendor Due Diligence</div>
+          <div>• Breach Response & NDPC Reporting</div>
+          <div>• Privacy by Design & Default</div>
+          <div>• Encryption, Tokenisation & Access Control</div>
+          <div>• BCP / DR Privacy Oversight</div>
+          <div>• Privacy Awareness Training</div>
+          <div>• Fraud Risk & AML / KYC</div>
+          <div>• Data Governance & Lifecycle Management</div>
+          <div>• Regulatory Engagement (NDPC, NITDA, NCC)</div>
+          <div>• ISO 27001 & NIST Frameworks</div>
+          <div>• Stakeholder & Cross-Functional Collaboration</div>
+        </div>
       </section>
 
       {/* Core Competencies */}
