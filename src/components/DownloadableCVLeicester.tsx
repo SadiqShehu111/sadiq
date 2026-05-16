@@ -21,6 +21,7 @@ export const DownloadableCVLeicester = () => {
   };
 
   return (
+    <>
     <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
       {/* Header */}
       <div className="border-b-2 border-blue-600 pb-6 mb-6">
@@ -284,13 +285,14 @@ export const DownloadableCVLeicester = () => {
           <div><strong>Portuguese:</strong> A2</div>
         </div>
       </section>
+      </div>
 
-      <div className="print:hidden flex justify-center mt-8">
+      <div className="flex justify-center mt-8">
         <Button onClick={handleDownload} className="flex items-center gap-2">
           <Download className="w-4 h-4" />
           Download CV
         </Button>
       </div>
-    </div>
+    </>
   );
 };
