@@ -1,8 +1,24 @@
 import { Download, Mail, MapPin } from "lucide-react";
+import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 
 export const CoverLetterMoniepoint = () => {
-  const handleDownload = () => window.print();
+  const contentRef = useRef<HTMLDivElement>(null);
+
+  const handleDownload = async () => {
+    if (!contentRef.current) return;
+    const html2pdf = (await import("html2pdf.js")).default;
+    html2pdf()
+      .set({
+        margin: 0.5,
+        filename: "Muhammad-Abubakar-Sadiq-Cover-Letter-Moniepoint.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+      })
+      .from(contentRef.current)
+      .save();
+  };
 
   const currentDate = new Date().toLocaleDateString("en-GB", {
     day: "numeric",
