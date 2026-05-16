@@ -73,7 +73,7 @@ export const CoverLetterMoniepoint = () => {
         </p>
 
         <p>
-          During my time as a Fraud Prevention Specialist supporting Apple (via
+          During my time as a Fraud Prevention Consultant supporting Apple (via
           Majorel) and earlier in Nigerian banking at Unity Bank, I worked daily with
           financial customer data, KYC records, and transaction monitoring. I gained
           first-hand experience of data subject rights handling, breach triage,

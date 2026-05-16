@@ -149,7 +149,7 @@ export const DownloadableCVQualityGuardian = () => {
 
         <div className="mb-4">
           <div className="flex justify-between items-start mb-1">
-            <h3 className="font-semibold text-gray-800">Fraud Prevention Specialist</h3>
+            <h3 className="font-semibold text-gray-800">Fraud Prevention Consultant</h3>
             <span className="text-sm text-gray-600">June 2020 – March 2022</span>
           </div>
           <p className="text-sm text-primary mb-1">Apple Inc. (Via Majorel Portugal)</p>

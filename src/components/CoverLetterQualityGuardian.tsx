@@ -85,7 +85,7 @@ export const CoverLetterQualityGuardian = () => {
         </p>
 
         <p>
-          During my tenure as a Fraud Prevention Specialist at Apple (via Majorel), I honed my abilities in process 
+          During my tenure as a Fraud Prevention Consultant at Apple (via Majorel), I honed my abilities in process 
           documentation, risk assessment, and cross-functional stakeholder communication. I led initiatives to create 
           fraud detection playbooks, developed analytical frameworks for decision-making, and prepared comprehensive 
           reports for management teams. This experience strengthened my capacity to identify process gaps, implement 

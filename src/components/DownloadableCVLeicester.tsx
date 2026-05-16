@@ -28,7 +28,7 @@ export const DownloadableCVLeicester = () => {
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed">
           Data protection, privacy and fraud-risk professional with 12+ years across financial services,
-          global technology and academia. Former Fraud Prevention Specialist at Apple (via Majorel) and
+          global technology and academia. Former Fraud Prevention Consultant at Apple (via Majorel) and
           Risk Officer at Unity Bank PLC, with hands-on experience in fraud consulting, payment-channel
           protection, KYC/AML and customer-data safeguarding. PhD in Information Systems Security with
           deep expertise in GDPR, NDPA 2023, NDPC and CBN frameworks — including DPIAs, DSARs, RoPA,
@@ -134,7 +134,7 @@ export const DownloadableCVLeicester = () => {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-2">
             <div>
-              <h3 className="font-bold">Fraud Prevention Specialist</h3>
+              <h3 className="font-bold">Fraud Prevention Consultant</h3>
               <p className="text-blue-600">Apple Inc. (via Majorel Portugal)</p>
             </div>
             <span className="text-sm text-gray-600">June 2020 – March 2022</span>
