@@ -10,6 +10,8 @@ import CVMoniepoint from "./pages/CVMoniepoint";
 import CVQualityGuardian from "./pages/CVQualityGuardian";
 import CoverLetterQualityGuardian from "./pages/CoverLetterQualityGuardian";
 import CoverLetterMoniepoint from "./pages/CoverLetterMoniepoint";
+import CVImoHealth from "./pages/CVImoHealth";
+import CoverLetterImoHealth from "./pages/CoverLetterImoHealth";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
