@@ -294,5 +294,6 @@ export const DownloadableCVLeicester = () => {
         </Button>
       </div>
     </div>
+    </>
   );
 };
