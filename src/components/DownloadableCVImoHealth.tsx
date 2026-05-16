@@ -51,6 +51,9 @@ export const DownloadableCVImoHealth = () => {
           Officer at Unity Bank PLC. PhD in Information Systems Security with deep, hands-on expertise
           in GDPR, HIPAA-aligned health-data protection, NDPA 2023, NIST CSF, ISO/IEC 27001, FAIR risk
           assessment, DPIAs, incident response and privacy-by-design for clinical and payment systems.
+          Invited speaker who has delivered numerous cybersecurity, data protection and digital-trust
+          talks globally across Africa, Europe and Asia to policy makers, business leaders and
+          academic audiences.
         </p>
       </section>
 
