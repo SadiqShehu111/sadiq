@@ -1,8 +1,24 @@
 import { Download, Mail, MapPin } from "lucide-react";
+import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 
 export const CoverLetterMoniepoint = () => {
-  const handleDownload = () => window.print();
+  const contentRef = useRef<HTMLDivElement>(null);
+
+  const handleDownload = async () => {
+    if (!contentRef.current) return;
+    const html2pdf = (await import("html2pdf.js")).default;
+    html2pdf()
+      .set({
+        margin: 0.5,
+        filename: "Muhammad-Abubakar-Sadiq-Cover-Letter-Moniepoint.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+      })
+      .from(contentRef.current)
+      .save();
+  };
 
   const currentDate = new Date().toLocaleDateString("en-GB", {
     day: "numeric",
@@ -15,9 +31,11 @@ export const CoverLetterMoniepoint = () => {
       <div className="print:hidden mb-6">
         <Button onClick={handleDownload} className="bg-primary hover:bg-primary/90">
           <Download className="mr-2 h-4 w-4" />
-          Download Cover Letter
+          Download Cover Letter (PDF)
         </Button>
       </div>
+
+      <div ref={contentRef}>
 
       <header className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">
@@ -126,6 +144,7 @@ export const CoverLetterMoniepoint = () => {
       <div className="mt-8 text-sm text-gray-700">
         <p>Yours sincerely,</p>
         <p className="mt-6 font-semibold">Muhammad Shehu Abubakar-(Sadiq) PhD</p>
+      </div>
       </div>
     </div>
   );
