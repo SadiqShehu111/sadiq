@@ -284,8 +284,9 @@ export const DownloadableCVLeicester = () => {
           <div><strong>Portuguese:</strong> A2</div>
         </div>
       </section>
+      </div>
 
-      <div className="print:hidden flex justify-center mt-8">
+      <div className="flex justify-center mt-8">
         <Button onClick={handleDownload} className="flex items-center gap-2">
           <Download className="w-4 h-4" />
           Download CV
