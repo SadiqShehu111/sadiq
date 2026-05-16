@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CV from "./pages/CV";
 import CVLeicester from "./pages/CVLeicester";
+import CVMoniepoint from "./pages/CVMoniepoint";
 import CVQualityGuardian from "./pages/CVQualityGuardian";
 import CoverLetterQualityGuardian from "./pages/CoverLetterQualityGuardian";
 import CoverLetterMoniepoint from "./pages/CoverLetterMoniepoint";
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/cv-leicester" element={<CVLeicester />} />
+          <Route path="/cv-moniepoint" element={<CVMoniepoint />} />
           <Route path="/cv-quality-guardian" element={<CVQualityGuardian />} />
           <Route path="/cover-letter-quality-guardian" element={<CoverLetterQualityGuardian />} />
           <Route path="/cover-letter-moniepoint" element={<CoverLetterMoniepoint />} />
