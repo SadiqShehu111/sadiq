@@ -293,7 +293,6 @@ export const DownloadableCVLeicester = () => {
           Download CV
         </Button>
       </div>
-    </div>
     </>
   );
 };
