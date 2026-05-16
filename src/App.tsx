@@ -10,6 +10,8 @@ import CVMoniepoint from "./pages/CVMoniepoint";
 import CVQualityGuardian from "./pages/CVQualityGuardian";
 import CoverLetterQualityGuardian from "./pages/CoverLetterQualityGuardian";
 import CoverLetterMoniepoint from "./pages/CoverLetterMoniepoint";
+import CVImoHealth from "./pages/CVImoHealth";
+import CoverLetterImoHealthPage from "./pages/CoverLetterImoHealth";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/cv-quality-guardian" element={<CVQualityGuardian />} />
           <Route path="/cover-letter-quality-guardian" element={<CoverLetterQualityGuardian />} />
           <Route path="/cover-letter-moniepoint" element={<CoverLetterMoniepoint />} />
+          <Route path="/cv-imo-health" element={<CVImoHealth />} />
+          <Route path="/cover-letter-imo-health" element={<CoverLetterImoHealthPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
