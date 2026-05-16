@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import CV from "./pages/CV";
 import CVQualityGuardian from "./pages/CVQualityGuardian";
 import CoverLetterQualityGuardian from "./pages/CoverLetterQualityGuardian";
+import CoverLetterMoniepoint from "./pages/CoverLetterMoniepoint";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/cv" element={<CV />} />
           <Route path="/cv-quality-guardian" element={<CVQualityGuardian />} />
           <Route path="/cover-letter-quality-guardian" element={<CoverLetterQualityGuardian />} />
+          <Route path="/cover-letter-moniepoint" element={<CoverLetterMoniepoint />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
