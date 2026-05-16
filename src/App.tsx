@@ -30,6 +30,8 @@ const App = () => (
           <Route path="/cv-quality-guardian" element={<CVQualityGuardian />} />
           <Route path="/cover-letter-quality-guardian" element={<CoverLetterQualityGuardian />} />
           <Route path="/cover-letter-moniepoint" element={<CoverLetterMoniepoint />} />
+          <Route path="/cv-imo-health" element={<CVImoHealth />} />
+          <Route path="/cover-letter-imo-health" element={<CoverLetterImoHealth />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
