@@ -136,6 +136,7 @@ export const CoverLetterQualityGuardian = () => {
         <p>Yours sincerely,</p>
         <p className="mt-6 font-semibold">Muhammad Shehu Abubakar-(Sadiq) PhD</p>
       </div>
+      </div>
     </div>
   );
 };
