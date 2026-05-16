@@ -43,23 +43,14 @@ export const DownloadableCVMoniepoint = () => {
         <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">CORE COMPETENCIES</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
           <div>• NDPA 2023, NDPC & GAID Compliance</div>
-          <div>• CBN IT & Cybersecurity Standards</div>
           <div>• GDPR & Global Privacy Frameworks</div>
-          <div>• Data Protection Impact Assessments (DPIA)</div>
-          <div>• Data Subject Rights & DSAR Handling</div>
-          <div>• Record of Processing Activities (RoPA)</div>
-          <div>• Data Processing Agreements (DPAs)</div>
-          <div>• Third-Party / Vendor Due Diligence</div>
-          <div>• Breach Response & NDPC Reporting</div>
+          <div>• CBN IT & Cybersecurity Standards</div>
+          <div>• DPIAs, DSARs & RoPA</div>
+          <div>• Breach Response & Regulatory Reporting</div>
           <div>• Privacy by Design & Default</div>
+          <div>• Vendor DPAs & Third-Party Due Diligence</div>
+          <div>• Fraud Risk, AML & KYC</div>
           <div>• Encryption, Tokenisation & Access Control</div>
-          <div>• BCP / DR Privacy Oversight</div>
-          <div>• Privacy Awareness Training</div>
-          <div>• Fraud Risk & AML / KYC</div>
-          <div>• Data Governance & Lifecycle Management</div>
-          <div>• Regulatory Engagement (NDPC, NITDA, NCC)</div>
-          <div>• ISO 27001 & NIST Frameworks</div>
-          <div>• Stakeholder & Cross-Functional Collaboration</div>
           <div>• Strong Problem Solving (Doctoral Research)</div>
           <div>• Corporate Responsibility & Ethics</div>
           <div>• Teaching, Training & Knowledge Transfer</div>
