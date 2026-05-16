@@ -31,9 +31,11 @@ export const CoverLetterMoniepoint = () => {
       <div className="print:hidden mb-6">
         <Button onClick={handleDownload} className="bg-primary hover:bg-primary/90">
           <Download className="mr-2 h-4 w-4" />
-          Download Cover Letter
+          Download Cover Letter (PDF)
         </Button>
       </div>
+
+      <div ref={contentRef}>
 
       <header className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">
