@@ -60,6 +60,9 @@ export const DownloadableCVMoniepoint = () => {
           <div>• Regulatory Engagement (NDPC, NITDA, NCC)</div>
           <div>• ISO 27001 & NIST Frameworks</div>
           <div>• Stakeholder & Cross-Functional Collaboration</div>
+          <div>• Strong Problem Solving (Doctoral Research)</div>
+          <div>• Corporate Responsibility & Ethics</div>
+          <div>• Teaching, Training & Knowledge Transfer</div>
         </div>
       </section>
 
