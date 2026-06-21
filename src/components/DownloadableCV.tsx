@@ -74,15 +74,16 @@ export const DownloadableCV = () => {
             <div>
               <h3 className="font-bold">Teaching Fellow - Cyber Security</h3>
               <p className="text-blue-600">University of Leicester - School of Computing and Mathematical Sciences</p>
+              <p className="text-xs text-gray-500 italic">Email: ssm61@leicester.ac.uk • Profile: le.ac.uk/people/muhammad-sadiq</p>
             </div>
             <span className="text-sm text-gray-600">January 2026 – Present</span>
           </div>
           <ul className="list-disc ml-6 text-sm space-y-1">
-            <li>Deliver undergraduate and postgraduate teaching in cybersecurity and computer science</li>
-            <li>Co-team researcher on the Nanostime project (part of €2.5M EU Horizon 2020 funding programme)</li>
-            <li>Research focus on secure digital content provenance, decentralised identity management, and GDPR-compliant trust systems</li>
-            <li>Design course materials, assignments, and assessments for complex security concepts</li>
-            <li>Supervise and mentor students in security research projects</li>
+            <li>Cyber Security academic with research focused on secure digital content provenance, decentralised identity management, and GDPR-compliant trust systems</li>
+            <li>Deliver undergraduate and postgraduate teaching across cybersecurity and computer science modules in the School of Computing and Mathematical Sciences</li>
+            <li>Design course materials, assignments, and assessments that translate complex security concepts into practical learning outcomes</li>
+            <li>Supervise and mentor MSc and PhD students on applied cybersecurity, privacy and trust research projects</li>
+            <li>Contribute to research outputs, publications and external collaborations aligned with the School's cyber security strategy</li>
           </ul>
         </div>
 
