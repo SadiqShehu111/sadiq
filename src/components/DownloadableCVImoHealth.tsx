@@ -11,7 +11,7 @@ export const DownloadableCVImoHealth = () => {
     html2pdf()
       .set({
         margin: 10,
-        filename: 'Dr_Muhammad_Shehu_Abubakar-Sadiq_CV_Lead_Cybersecurity_Data_Privacy.pdf',
+        filename: 'Muhammad_Shehu_Abubakar-Sadiq_CV_Lead_Cybersecurity_Data_Privacy.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2, useCORS: true },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
@@ -25,8 +25,8 @@ export const DownloadableCVImoHealth = () => {
       <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
         {/* Header */}
         <div className="border-b-2 border-blue-600 pb-6 mb-6">
-          <h1 className="text-3xl font-bold text-blue-600 mb-1">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
-          <p className="text-lg text-gray-600 mb-4">PhD, Information Systems Security — Cybersecurity & Data Privacy Leader</p>
+          <h1 className="text-3xl font-bold text-blue-600 mb-1">Muhammad Shehu Abubakar-Sadiq</h1>
+          <p className="text-lg text-gray-600 mb-4">PhD in Computer Science — Cybersecurity</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-blue-600" />
@@ -48,7 +48,7 @@ export const DownloadableCVImoHealth = () => {
           <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
           <p className="text-gray-700 leading-relaxed">
             Cybersecurity and data privacy leader with 12+ years across academia, global technology and
-            financial services. PhD in Information Systems Security with applied expertise in
+            financial services. PhD in Computer Science — Cybersecurity with applied expertise in
             healthcare-grade data protection — designed and secured the Nanostima (€2.5M EU Horizon 2020)
             infrastructure used for Portugal's COVID-19 vaccine tracking, and published peer-reviewed
             work on GDPR-compliant identity, DPIAs, and privacy-by-design. Hands-on with NIST CSF,
@@ -206,7 +206,7 @@ export const DownloadableCVImoHealth = () => {
           <div className="mb-3">
             <div className="flex justify-between">
               <div>
-                <h3 className="font-bold">PhD, Computer Science — Information Systems Security</h3>
+                <h3 className="font-bold">PhD in Computer Science — Cybersecurity</h3>
                 <p className="text-blue-600">University of Porto, Portugal</p>
                 <p className="text-sm italic">Thesis: Establishing Secure and Privacy-Preserving Digital Identity with Self-Sovereign Identity</p>
               </div>
