@@ -11,7 +11,7 @@ export const DownloadableCVImoHealth = () => {
     html2pdf()
       .set({
         margin: 10,
-        filename: 'Dr_Muhammad_Shehu_Abubakar-Sadiq_CV_Lead_Cybersecurity_Data_Privacy.pdf',
+        filename: 'Muhammad_Shehu_Abubakar-Sadiq_CV_Lead_Cybersecurity_Data_Privacy.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2, useCORS: true },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
