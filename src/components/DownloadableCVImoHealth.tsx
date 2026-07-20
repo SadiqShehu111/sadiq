@@ -48,7 +48,7 @@ export const DownloadableCVImoHealth = () => {
           <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
           <p className="text-gray-700 leading-relaxed">
             Cybersecurity and data privacy leader with 12+ years across academia, global technology and
-            financial services. PhD in Information Systems Security with applied expertise in
+            financial services. PhD in Computer Science — Cybersecurity with applied expertise in
             healthcare-grade data protection — designed and secured the Nanostima (€2.5M EU Horizon 2020)
             infrastructure used for Portugal's COVID-19 vaccine tracking, and published peer-reviewed
             work on GDPR-compliant identity, DPIAs, and privacy-by-design. Hands-on with NIST CSF,
