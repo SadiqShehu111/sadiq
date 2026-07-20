@@ -268,17 +268,6 @@ export const DownloadableCVKanoState = () => {
             <p>Fraser, A., <strong>Shehu, A.S.</strong>, Frymann, N., Haynes, P., & Schneider, S. (2025). Privacy-Preserving Photo Sharing: An SSI Use Case. <em>ICISS 2024, Springer LNCS</em> 15416.</p>
           </div>
         </section>
-
-        {/* Languages */}
-        <section className="mb-6">
-          <h2 className="text-xl font-bold text-blue-600 border-b border-gray-300 pb-2 mb-4">LANGUAGES</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-            <div><strong>English:</strong> C2</div>
-            <div><strong>Hausa:</strong> Native</div>
-            <div><strong>Yoruba:</strong> C2</div>
-            <div><strong>Portuguese:</strong> A2</div>
-          </div>
-        </section>
       </div>
 
       <div className="flex justify-center gap-4 mt-8 print:hidden">
