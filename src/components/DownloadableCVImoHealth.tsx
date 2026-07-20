@@ -25,8 +25,8 @@ export const DownloadableCVImoHealth = () => {
       <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
         {/* Header */}
         <div className="border-b-2 border-blue-600 pb-6 mb-6">
-          <h1 className="text-3xl font-bold text-blue-600 mb-1">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
-          <p className="text-lg text-gray-600 mb-4">PhD, Information Systems Security — Cybersecurity & Data Privacy Leader</p>
+          <h1 className="text-3xl font-bold text-blue-600 mb-1">Muhammad Shehu Abubakar-Sadiq</h1>
+          <p className="text-lg text-gray-600 mb-4">PhD in Computer Science — Cybersecurity</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-blue-600" />
