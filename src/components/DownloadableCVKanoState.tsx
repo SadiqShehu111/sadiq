@@ -22,12 +22,12 @@ export const DownloadableCVKanoState = () => {
 
   return (
     <>
-      <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6 font-serif text-lg">
+      <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6 font-serif text-base">
         {/* Name */}
         <div className="mb-6">
-          <h1 className="text-6xl font-bold text-blue-900 mb-2 font-serif">Muhammad Shehu Abubakar-Sadiq</h1>
-          <p className="text-2xl text-gray-800 mb-4 font-serif">PhD in Computer Science — Cybersecurity</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-base">
+          <h1 className="text-3xl font-bold text-blue-900 mb-2 font-serif">Muhammad Shehu Abubakar-Sadiq</h1>
+          <p className="text-lg text-gray-800 mb-4 font-serif">PhD in Computer Science — Cybersecurity</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
             <div className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-blue-900" />
               <span>msabubakar-sadiq.it@buk.edu.ng</span>
