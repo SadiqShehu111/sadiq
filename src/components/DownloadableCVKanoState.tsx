@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Download, Mail, MapPin, User, Globe } from 'lucide-react';
+import { Download, Mail, User, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import html2pdf from 'html2pdf.js';
 
