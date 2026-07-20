@@ -285,11 +285,20 @@ export const DownloadableCVKanoState = () => {
         </section>
       </div>
 
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center gap-4 mt-8 print:hidden">
         <Button onClick={handleDownload} className="flex items-center gap-2">
           <Download className="w-4 h-4" />
-          Download CV
+          Download CV (PDF)
         </Button>
+        <a
+          href="/Muhammad_Shehu_Abubakar-Sadiq_CV_Kano_State_KDAMS.docx"
+          download
+        >
+          <Button variant="outline" className="flex items-center gap-2">
+            <Download className="w-4 h-4" />
+            Download CV (DOCX)
+          </Button>
+        </a>
       </div>
     </>
   );
