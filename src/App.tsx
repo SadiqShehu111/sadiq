@@ -12,6 +12,7 @@ import CoverLetterQualityGuardian from "./pages/CoverLetterQualityGuardian";
 import CoverLetterMoniepoint from "./pages/CoverLetterMoniepoint";
 import CVImoHealth from "./pages/CVImoHealth";
 import CoverLetterImoHealthPage from "./pages/CoverLetterImoHealth";
+import CVKanoState from "./pages/CVKanoState";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
