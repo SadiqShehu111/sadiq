@@ -206,7 +206,7 @@ export const DownloadableCVImoHealth = () => {
           <div className="mb-3">
             <div className="flex justify-between">
               <div>
-                <h3 className="font-bold">PhD, Computer Science — Information Systems Security</h3>
+                <h3 className="font-bold">PhD in Computer Science — Cybersecurity</h3>
                 <p className="text-blue-600">University of Porto, Portugal</p>
                 <p className="text-sm italic">Thesis: Establishing Secure and Privacy-Preserving Digital Identity with Self-Sovereign Identity</p>
               </div>
