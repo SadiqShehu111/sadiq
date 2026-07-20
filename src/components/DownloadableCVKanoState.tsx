@@ -22,26 +22,22 @@ export const DownloadableCVKanoState = () => {
 
   return (
     <>
-      <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
+      <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6 font-serif">
         {/* Header */}
-        <div className="border-b-2 border-blue-600 pb-6 mb-6">
-          <h1 className="text-3xl font-bold text-blue-600 mb-1">Muhammad Shehu Abubakar-Sadiq</h1>
-          <p className="text-lg text-gray-600 mb-4">PhD in Computer Science — Cybersecurity</p>
+        <div className="border-b-2 border-blue-900 pb-6 mb-6">
+          <h1 className="text-3xl font-bold text-blue-900 mb-1 font-serif">Muhammad Shehu Abubakar-Sadiq</h1>
+          <p className="text-lg text-gray-800 mb-4 font-serif">PhD in Computer Science — Cybersecurity</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
             <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-blue-600" />
+              <Mail className="w-4 h-4 text-blue-900" />
               <span>msabubakar-sadiq.it@buk.edu.ng</span>
             </div>
             <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-blue-600" />
-              <span>Department of Information Technology, Bayero University Kano, Nigeria</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4 text-blue-600" />
+              <User className="w-4 h-4 text-blue-900" />
               <span>Nationality: Nigerian</span>
             </div>
             <div className="flex items-center gap-2">
-              <Globe className="w-4 h-4 text-blue-600" />
+              <Globe className="w-4 h-4 text-blue-900" />
               <span>Profiles: le.ac.uk/people/muhammad-sadiq</span>
             </div>
           </div>
