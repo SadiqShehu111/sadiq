@@ -8,7 +8,8 @@ const CVSection = () => {
       icon: <Briefcase className="h-5 w-5" />,
       title: "Professional Experience",
       items: [
-        "Post Doctoral Research Fellow at University of Surrey (2024-Present)",
+        "Teaching Fellow at University of Leicester (2026–Present)",
+        "Cyber Security Post-Doctoral Research Fellow at University of Surrey (2024–2025)",
         "Google Search Language Consultant - Hausa & Yoruba (2022-2024)",
         "External Researcher at INESCTEC Porto (2017-2023)"
       ]
@@ -17,7 +18,7 @@ const CVSection = () => {
       icon: <Award className="h-5 w-5" />,
       title: "Key Achievements",
       items: [
-        "Published 10+ papers in security conferences",
+        "Published across IEEE, Springer LNCS and international security venues",
         "PhD in Information Systems Security",
         "Expert in Self-Sovereign Identity systems"
       ]
@@ -28,19 +29,20 @@ const CVSection = () => {
       items: [
         "Lecturer at Bayero University Kano",
         "Fraud Prevention Consultant at Apple",
-        "Multilingual expertise: English, Hausa, Yoruba, Portuguese"
+        "Cross-sector collaboration spanning academia, technology and financial services"
       ]
     }
   ];
 
   return (
-    <section id="cv" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
+    <section id="cv" className="py-24 bg-background border-t border-border">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="mb-12 max-w-3xl">
+          <p className="font-mono text-xs text-primary uppercase mb-4">01 / Experience</p>
+          <h2 className="text-3xl md:text-4xl font-semibold text-text-primary mb-4">
             Curriculum Vitae
           </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+          <p className="text-lg text-text-secondary max-w-2xl">
             A comprehensive overview of my professional journey, achievements, and contributions 
             to the research community.
           </p>
@@ -48,7 +50,7 @@ const CVSection = () => {
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           {highlights.map((section, index) => (
-            <Card key={index} className="shadow-card-elegant border-border hover:shadow-professional transition-smooth">
+            <Card key={index} className="shadow-card-elegant border-border hover:border-primary/40 transition-smooth rounded-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-primary">
                   {section.icon}
@@ -68,9 +70,10 @@ const CVSection = () => {
           ))}
         </div>
 
-        <div className="text-center">
-          <Card className="inline-block shadow-card-elegant">
-            <CardContent className="p-8">
+        <div>
+          <Card className="shadow-card-elegant border-border rounded-md">
+            <CardContent className="p-8 md:flex items-center justify-between gap-8">
+              <div>
               <h3 className="text-xl font-semibold text-text-primary mb-4">
                 Complete CV Document
               </h3>
@@ -78,7 +81,8 @@ const CVSection = () => {
                 Download my full curriculum vitae with detailed information about 
                 my education, research, publications, and professional experience.
               </p>
-              <Button className="bg-hero-gradient hover:opacity-90 transition-smooth shadow-professional">
+              </div>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 mt-5 md:mt-0" onClick={() => window.location.assign('/cv')}>
                 <Download className="mr-2 h-4 w-4" />
                 Download Full CV (PDF)
               </Button>
