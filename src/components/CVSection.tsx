@@ -102,12 +102,19 @@ const CVSection = () => {
                 my education, research, publications, and professional experience.
               </p>
               </div>
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 mt-5 md:mt-0" onClick={() => window.location.assign('/cv')}>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 mt-5 md:mt-0" onClick={handleDownload}>
                 <Download className="mr-2 h-4 w-4" />
                 Download Full CV (PDF)
               </Button>
             </CardContent>
           </Card>
+        </div>
+
+        {/* Off-screen full CV used as the PDF source */}
+        <div ref={hiddenCvRef} aria-hidden className="fixed -left-[10000px] top-0 w-[900px] pointer-events-none select-none opacity-0">
+          <div data-cv-body>
+            <DownloadableCV hideActions />
+          </div>
         </div>
       </div>
     </section>
