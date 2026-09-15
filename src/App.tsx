@@ -37,6 +37,9 @@ const App = () => (
           <Route path="/cv-imo-health" element={<CVImoHealth />} />
           <Route path="/cover-letter-imo-health" element={<CoverLetterImoHealthPage />} />
           <Route path="/cv-kano-state" element={<CVKanoState />} />
+          <Route path="/cv-privacy-director" element={<CVPrivacyDirector />} />
+          <Route path="/cover-letter-privacy-director" element={<CoverLetterPrivacyDirectorPage />} />
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
