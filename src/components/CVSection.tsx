@@ -111,7 +111,7 @@ const CVSection = () => {
         </div>
 
         {/* Off-screen full CV used as the PDF source */}
-        <div ref={hiddenCvRef} aria-hidden className="fixed -left-[10000px] top-0 w-[900px] pointer-events-none select-none opacity-0">
+        <div ref={hiddenCvRef} aria-hidden className="fixed -left-[10000px] top-0 w-[900px] pointer-events-none select-none">
           <div data-cv-body>
             <DownloadableCV hideActions />
           </div>
