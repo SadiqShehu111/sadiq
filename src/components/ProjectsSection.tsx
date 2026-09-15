@@ -18,11 +18,11 @@ const ProjectsSection = () => {
       }
     },
     {
-      title: "NANSTIMA EU Project (Horizon 2020)",
-      description: "EU Horizon 2020 project focused on developing advanced cybersecurity solutions and frameworks for critical infrastructure protection and resilience.",
+       title: "NanoSTIMA (EU Horizon 2020)",
+       description: "Co-team researcher at INESC TEC on secure health-data infrastructure subsequently used for Portugal's COVID-19 vaccine tracking and monitoring.",
       technologies: ["Cybersecurity", "EU Framework", "Critical Infrastructure", "Risk Assessment"],
       type: "EU Research Project",
-      status: "Ongoing",
+       status: "Completed",
       impact: "Part of €2.5M EU Horizon 2020 funding programme",
       icon: <Users className="h-5 w-5" />,
       links: {
@@ -30,12 +30,12 @@ const ProjectsSection = () => {
       }
     },
     {
-      title: "DECADE Centre for Cyber Security",
-      description: "Contributing to the DECADE Centre's mission of advancing cybersecurity research, education, and innovation through collaborative partnerships with academia and industry.",
+       title: "DECaDE — Decentralised Digital Economy",
+       description: "Cybersecurity research on privacy-preserving reputation, decentralised identity and secure supply-chain systems, presented to stakeholders at the House of Lords.",
       technologies: ["Cyber Security", "Research", "Education", "Industry Collaboration"],
       type: "Research Centre",
       status: "Active",
-      impact: "Leading cybersecurity research initiatives at University of Surrey",
+       impact: "Part of a £6M UK research centre at the University of Surrey",
       icon: <Lightbulb className="h-5 w-5" />,
       links: {
         website: "https://decade.ac.uk/about/"
@@ -44,13 +44,14 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
+    <section id="projects" className="py-24 bg-background border-t border-border">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="mb-12 max-w-3xl">
+          <p className="font-mono text-xs text-primary uppercase mb-4">03 / Projects</p>
+          <h2 className="text-3xl md:text-4xl font-semibold text-text-primary mb-4">
             Featured Projects
           </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+          <p className="text-lg text-text-secondary max-w-2xl">
             A selection of impactful projects that demonstrate the practical application 
             of research in solving real-world problems across various domains.
           </p>
@@ -58,7 +59,7 @@ const ProjectsSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <Card key={index} className="shadow-card-elegant hover:shadow-professional transition-smooth h-full flex flex-col">
+            <Card key={index} className="shadow-card-elegant hover:border-primary/50 transition-smooth h-full flex flex-col rounded-md">
               <CardHeader>
                 <div className="flex items-start justify-between mb-2">
                   <div className="text-primary">
@@ -126,12 +127,6 @@ const ProjectsSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-            <Github className="mr-2 h-4 w-4" />
-            View All Projects on GitHub
-          </Button>
-        </div>
       </div>
     </section>
   );

@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Linkedin, Github, Send } from "lucide-react";
+import { Mail, MapPin, Linkedin, BookOpen, Send } from "lucide-react";
 import { useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
@@ -60,13 +60,14 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
+    <section id="contact" className="py-24 bg-background border-t border-border">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="mb-12 max-w-3xl">
+          <p className="font-mono text-xs text-primary uppercase mb-4">05 / Contact</p>
+          <h2 className="text-3xl md:text-4xl font-semibold text-text-primary mb-4">
             Get In Touch
           </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+          <p className="text-lg text-text-secondary max-w-2xl">
             Interested in collaboration, research opportunities, or just want to connect? 
             I'd love to hear from you.
           </p>
@@ -75,7 +76,7 @@ const ContactSection = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {/* Contact Information */}
           <div className="space-y-6">
-            <Card className="shadow-card-elegant">
+            <Card className="shadow-card-elegant rounded-md border-border">
               <CardHeader>
                 <CardTitle className="text-xl text-text-primary">
                   Contact Information
@@ -93,13 +94,13 @@ const ContactSection = () => {
                   <MapPin className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium text-text-primary">Location</p>
-                    <p className="text-text-secondary">Aldershot, United Kingdom</p>
+                     <p className="text-text-secondary">Leicester, United Kingdom</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="shadow-card-elegant">
+            <Card className="shadow-card-elegant rounded-md border-border">
               <CardHeader>
                 <CardTitle className="text-xl text-text-primary">
                   Connect Online
@@ -114,25 +115,21 @@ const ContactSection = () => {
                   <Linkedin className="mr-3 h-4 w-4" />
                   LinkedIn Profile
                 </Button>
-                <Button variant="outline" className="w-full justify-start">
-                  <Github className="mr-3 h-4 w-4" />
-                  GitHub Profile
-                </Button>
                 <Button 
                   variant="outline" 
                   className="w-full justify-start"
-                  onClick={() => window.open('https://scholar.google.com/citations?hl=en&user=KvC0u1oAAAAJ', '_blank')}
+                   onClick={() => window.open('https://scholar.google.pt/citations?hl=en&user=KvC0u1oAAAAJ&view_op=list_works&sortby=pubdate', '_blank')}
                 >
-                  <Mail className="mr-3 h-4 w-4" />
+                   <BookOpen className="mr-3 h-4 w-4" />
                   Google Scholar
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="shadow-card-elegant bg-hero-gradient text-primary-foreground">
+            <Card className="shadow-card-elegant bg-secondary border-primary/30 rounded-md">
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold mb-2">Open to Opportunities</h3>
-                <p className="text-primary-foreground/90">
+                 <p className="text-text-secondary">
                   I'm currently open to new research collaborations, consulting opportunities, 
                   and interesting projects. Let's discuss how we can work together!
                 </p>
@@ -141,7 +138,7 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="shadow-card-elegant">
+          <Card className="shadow-card-elegant rounded-md border-border">
             <CardHeader>
               <CardTitle className="text-xl text-text-primary">
                 Send a Message

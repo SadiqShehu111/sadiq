@@ -81,7 +81,7 @@ const HeroSection = () => {
               <div className="border border-border bg-card p-5"><p className="font-mono text-xs text-primary uppercase mb-3">Current role</p><p className="font-medium">Teaching Fellow — Cyber Security</p><p className="text-sm text-muted-foreground mt-1">University of Leicester · 2026–present</p></div>
               <div className="border border-border bg-card p-5"><p className="font-mono text-xs text-primary uppercase mb-3">Research focus</p><p className="font-medium">Identity, privacy & digital trust</p><p className="text-sm text-muted-foreground mt-1">Research translated into practical systems</p></div>
             </div>
-            <button onClick={() => document.getElementById('cv')?.scrollIntoView({ behavior: 'smooth' })} className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"><ArrowDownRight className="h-4 w-4" /> Explore experience and research</button>
+            <Button variant="link" onClick={() => document.getElementById('cv')?.scrollIntoView({ behavior: 'smooth' })} className="h-auto p-0 text-sm text-muted-foreground hover:text-primary"><ArrowDownRight className="h-4 w-4 mr-2" /> Explore experience and research</Button>
           </div>
         </div>
       </div>

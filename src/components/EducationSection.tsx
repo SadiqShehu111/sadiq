@@ -56,21 +56,21 @@ const EducationSection = () => {
   ];
 
   return (
-    <section id="education" className="py-20 bg-subtle-gradient">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
+    <section id="education" className="py-24 bg-subtle-gradient border-t border-border">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="mb-12 max-w-3xl">
+          <p className="font-mono text-xs text-primary uppercase mb-4">04 / Education</p>
+          <h2 className="text-3xl md:text-4xl font-semibold text-text-primary mb-4">
             Education & Qualifications
           </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Academic journey and professional certifications that form the foundation 
-            of my expertise in computer science and artificial intelligence.
+          <p className="text-lg text-text-secondary max-w-2xl">
+            Academic training in computer science, digital systems security and information systems.
           </p>
         </div>
 
         <div className="space-y-6 mb-12">
           {education.map((edu, index) => (
-            <Card key={index} className="shadow-card-elegant hover:shadow-professional transition-smooth">
+            <Card key={index} className="shadow-card-elegant hover:border-primary/50 transition-smooth rounded-md">
               <CardHeader>
                 <div className="flex items-start gap-4">
                   <div className="text-primary mt-1">
@@ -83,7 +83,6 @@ const EducationSection = () => {
                     <div className="space-y-1">
                       <p className="text-lg font-medium text-primary">{edu.institution}</p>
                       <p className="text-text-secondary">{edu.location} • {edu.year}</p>
-                      <p className="text-text-secondary">GPA: {edu.gpa}</p>
                     </div>
                   </div>
                   <Badge className="bg-hero-gradient text-primary-foreground">
@@ -120,7 +119,7 @@ const EducationSection = () => {
           ))}
         </div>
 
-        <Card className="shadow-card-elegant">
+        <Card className="shadow-card-elegant rounded-md border-border">
           <CardHeader>
             <CardTitle className="text-xl text-text-primary flex items-center gap-3">
               <Award className="h-5 w-5 text-primary" />
