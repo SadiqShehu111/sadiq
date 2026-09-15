@@ -1,8 +1,28 @@
+import { useRef } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, Briefcase, Award, Users } from "lucide-react";
+import html2pdf from "html2pdf.js";
+import { DownloadableCV } from "@/components/DownloadableCV";
 
 const CVSection = () => {
+  const hiddenCvRef = useRef<HTMLDivElement>(null);
+
+  const handleDownload = () => {
+    if (!hiddenCvRef.current) return;
+    html2pdf()
+      .set({
+        margin: 8,
+        filename: "Muhammad_Shehu_Abubakar-Sadiq_CV.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+        pagebreak: { mode: ["css", "legacy"] },
+      } as any)
+      .from(hiddenCvRef.current.querySelector("[data-cv-body]") as HTMLElement)
+      .save();
+  };
+
   const highlights = [
     {
       icon: <Briefcase className="h-5 w-5" />,
@@ -82,12 +102,19 @@ const CVSection = () => {
                 my education, research, publications, and professional experience.
               </p>
               </div>
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 mt-5 md:mt-0" onClick={() => window.location.assign('/cv')}>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 mt-5 md:mt-0" onClick={handleDownload}>
                 <Download className="mr-2 h-4 w-4" />
                 Download Full CV (PDF)
               </Button>
             </CardContent>
           </Card>
+        </div>
+
+        {/* Off-screen full CV used as the PDF source */}
+        <div ref={hiddenCvRef} aria-hidden className="fixed -left-[10000px] top-0 w-[900px] pointer-events-none select-none">
+          <div data-cv-body>
+            <DownloadableCV hideActions />
+          </div>
         </div>
       </div>
     </section>

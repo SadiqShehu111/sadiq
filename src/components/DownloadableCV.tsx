@@ -1,18 +1,34 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Download, Mail, Phone, MapPin, User, Briefcase, GraduationCap, Award, FileText } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import html2pdf from 'html2pdf.js';
 
-export const DownloadableCV = () => {
+export const DownloadableCV = ({ hideActions = false }: { hideActions?: boolean }) => {
+  const cvRef = useRef<HTMLDivElement>(null);
+
   const handleDownload = () => {
-    window.print();
+    if (!cvRef.current) return;
+    html2pdf()
+      .set({
+        margin: 8,
+        filename: 'Muhammad_Shehu_Abubakar-Sadiq_CV.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+        pagebreak: { mode: ['css', 'legacy'] },
+      } as any)
+      .from(cvRef.current)
+      .save();
   };
 
   return (
-    <div className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
+    <>
+    <div ref={cvRef} className="max-w-4xl mx-auto bg-white text-black p-8 print:p-6">
       {/* Header */}
       <div className="border-b-2 border-blue-600 pb-6 mb-6">
-        <h1 className="text-3xl font-bold text-blue-600 mb-2">Dr. Muhammad Shehu Abubakar-Sadiq</h1>
+        <h1 className="text-3xl font-bold text-blue-600 mb-2">Muhammad Shehu Abubakar-Sadiq</h1>
         <p className="text-xl text-gray-600 mb-4">PhD in Computer Science • Cybersecurity & Forensic Investigation Specialist</p>
+
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
           <div className="flex items-center gap-2">
@@ -304,13 +320,17 @@ export const DownloadableCV = () => {
         </div>
       </section>
 
-      {/* Download Button - Only visible on screen */}
-      <div className="print:hidden flex justify-center mt-8">
-        <Button onClick={handleDownload} className="flex items-center gap-2">
-          <Download className="w-4 h-4" />
-          Download CV
-        </Button>
-      </div>
     </div>
+
+      {/* Download Button - Only visible on screen, excluded from PDF capture */}
+      {!hideActions && (
+        <div className="flex justify-center mt-8">
+          <Button onClick={handleDownload} className="flex items-center gap-2">
+            <Download className="w-4 h-4" />
+            Download CV (PDF)
+          </Button>
+        </div>
+      )}
+    </>
   );
 };
