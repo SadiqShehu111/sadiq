@@ -320,13 +320,17 @@ export const DownloadableCV = ({ hideActions = false }: { hideActions?: boolean 
         </div>
       </section>
 
-      {/* Download Button - Only visible on screen */}
-      <div className="print:hidden flex justify-center mt-8">
-        <Button onClick={handleDownload} className="flex items-center gap-2">
-          <Download className="w-4 h-4" />
-          Download CV
-        </Button>
-      </div>
     </div>
+
+      {/* Download Button - Only visible on screen, excluded from PDF capture */}
+      {!hideActions && (
+        <div className="flex justify-center mt-8">
+          <Button onClick={handleDownload} className="flex items-center gap-2">
+            <Download className="w-4 h-4" />
+            Download CV (PDF)
+          </Button>
+        </div>
+      )}
+    </>
   );
 };
