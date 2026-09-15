@@ -13,9 +13,10 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className="lg:col-span-5 lg:sticky lg:top-24 space-y-6">
             <div className="relative border border-border bg-card p-6 shadow-professional">
-              <div className="w-48 aspect-[4/5] overflow-hidden border border-border mb-6">
-                <img src={professionalHeadshot.url} alt="Muhammad Shehu Abubakar-Sadiq" className="w-full h-full object-cover object-top" />
+              <div className="w-full max-w-[18rem] aspect-[4/5] overflow-hidden border border-border mb-6 bg-muted">
+                <img src={professionalHeadshot.url} alt="Muhammad Shehu Abubakar-Sadiq" className="w-full h-full object-contain object-center" />
               </div>
+
               <h1 className="text-3xl md:text-4xl font-semibold text-text-primary leading-tight">
                 Muhammad Shehu<br />Abubakar-Sadiq
               </h1>
