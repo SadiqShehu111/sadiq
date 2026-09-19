@@ -241,10 +241,16 @@ export const DownloadableCVPrivacyDirector = () => {
         </section>
       </div>
 
-      <div className="print:hidden flex justify-center gap-3 my-8">
+      <div className="print:hidden flex flex-wrap justify-center gap-3 my-8">
         <Button onClick={handleDownload} className="flex items-center gap-2">
           <Download className="w-4 h-4" />
           Download CV (PDF)
+        </Button>
+        <Button asChild variant="outline" className="flex items-center gap-2">
+          <a href="/Muhammad_Shehu_Abubakar-Sadiq_CV_Data_Privacy_Protection_Director.docx" download>
+            <Download className="w-4 h-4" />
+            Download CV (DOCX)
+          </a>
         </Button>
       </div>
     </>
