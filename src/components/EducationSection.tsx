@@ -25,7 +25,7 @@ const EducationSection = () => {
       year: "2012",
       gpa: "N/A",
       thesis: "Business Information Systems",
-      advisor: "N/A",
+      advisor: "Dr. Trevor",
       achievements: [
         "Focus on Information Systems",
         "Business-IT Integration",
