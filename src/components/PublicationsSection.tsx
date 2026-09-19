@@ -6,40 +6,94 @@ import { ExternalLink, BookOpen, Star } from "lucide-react";
 const PublicationsSection = () => {
   const publications = [
     {
-      title: "Privacy-Preserving Photo Sharing: An SSI Use Case",
-      authors: "Fraser, A., Shehu, AS., Frymann, N., Haynes, P., Schneider, S.",
-      venue: "Information Systems Security. ICISS 2024",
+      title: "Privacy-Enhancing Decentralised Reputation Systems: A Future of Work Perspective",
+      authors: "Merlano, E. F., Parry, G., Shehu, A-S., Schneider, S.",
+      venue: "IET Conference Proceedings",
       year: "2025",
       type: "Conference",
       featured: true,
-      abstract: "This paper presents a privacy-preserving photo sharing system using Self-Sovereign Identity principles..."
+      abstract: "Explores how privacy-enhancing decentralised reputation systems can protect gig economy workers, combining self-sovereign identity and reputation frameworks for fairer digital labour markets.",
+      doi: "https://doi.org/10.1049/icp.2025.2958"
+    },
+    {
+      title: "Decentralised Supply Chain Reputation: A Privacy and Self-Sovereign Identity Perspective",
+      authors: "Shehu, A-S., Schneider, S.",
+      venue: "IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)",
+      year: "2025",
+      type: "Conference",
+      featured: true,
+      abstract: "Proposes a decentralised reputation model for supply chains that preserves participant privacy using self-sovereign identity and verifiable credentials.",
+      doi: "https://doi.org/10.1109/eurospw67616.2025.00061"
+    },
+    {
+      title: "Privacy-Preserving Photo Sharing: An SSI Use Case",
+      authors: "Fraser, A., Shehu, A-S., Frymann, N., Haynes, P., Schneider, S.",
+      venue: "Information Systems Security. ICISS 2024, Springer LNCS",
+      year: "2025",
+      type: "Conference",
+      featured: true,
+      abstract: "Presents a privacy-preserving photo sharing system built on Self-Sovereign Identity principles, giving users verifiable control over how their images are shared and attributed.",
+      doi: "https://doi.org/10.1007/978-3-031-80020-7_18"
     },
     {
       title: "On the Compliance of Self-Sovereign Identity with GDPR Principles: A Critical Review",
-      authors: "Shehu, AS.",
+      authors: "Shehu, A-S.",
       venue: "arXiv preprint",
       year: "2024",
       type: "Preprint",
       featured: true,
-      abstract: "A comprehensive analysis of how Self-Sovereign Identity systems comply with GDPR requirements..."
+      abstract: "A comprehensive critical review of how Self-Sovereign Identity systems align with GDPR principles, identifying compliance gaps and design recommendations.",
+      doi: "https://doi.org/10.48550/arxiv.2409.03624"
     },
     {
-      title: "A Decentralised Real Estate Transfer Verification Based on Self-Sovereign Identity and Smart Contract",
-      authors: "Abubakar-Sadiq Shehu, Antonio Pinto, Manuel Eduardo Correia",
-      venue: "19th International Conference on Security and Cryptography",
-      year: "2022",
+      title: "SPIDVerify: A Secure and Privacy-Preserving Decentralised Identity Verification Framework",
+      authors: "Shehu, A-S., Pinto, A., Correia, M. E.",
+      venue: "IEEE International Conference on Smart and Sustainable Technologies (SmartNets)",
+      year: "2023",
       type: "Conference",
       featured: true,
-      abstract: "This work proposes a decentralized framework for real estate transfer verification using blockchain and SSI..."
+      abstract: "Introduces SPIDVerify, a decentralised identity verification framework that combines SSI and privacy-preserving proofs for secure, user-controlled identity verification.",
+      doi: "https://doi.org/10.1109/smartnets58706.2023.10215588"
     },
     {
-      title: "Privacy Preservation And Mandate Representation In Identity Management Systems",
-      authors: "Abubakar-Sadiq Shehu, António Pinto, and Manuel E Correia",
-      venue: "14th IBERIAN CONFERENCE ON INFORMATION SYSTEMS AND TECHNOLOGIES (CISTI 2019)",
+      title: "A Decentralised Real Estate Transfer Verification Based on Self-Sovereign Identity and Smart Contracts",
+      authors: "Shehu, A-S., Pinto, A., Correia, M. E.",
+      venue: "19th International Conference on Security and Cryptography (SECRYPT)",
+      year: "2022",
+      type: "Conference",
+      featured: false,
+      abstract: "Proposes a decentralised framework for real estate transfer verification using blockchain smart contracts and self-sovereign identity to remove trusted intermediaries.",
+      doi: "https://doi.org/10.5220/0011384700003283"
+    },
+    {
+      title: "Providing Secured Access Delegation in Identity Management Systems",
+      authors: "Shehu, A-S., Pinto, A., Correia, M. E.",
+      venue: "17th International Conference on Security and Cryptography (SECRYPT)",
+      year: "2020",
+      type: "Conference",
+      featured: false,
+      abstract: "Presents a secure access delegation mechanism for identity management systems, enabling controlled and auditable delegation of access rights.",
+      doi: "https://doi.org/10.5220/0009892206380644"
+    },
+    {
+      title: "Privacy Preservation and Mandate Representation in Identity Management Systems",
+      authors: "Shehu, A-S., Pinto, A., Correia, M. E.",
+      venue: "14th Iberian Conference on Information Systems and Technologies (CISTI)",
       year: "2019",
       type: "Conference",
       featured: false,
-      abstract: "Investigation of privacy preservation techniques in identity management systems with mandate representation..."
+      abstract: "Investigates privacy preservation techniques and mandate representation models in identity management systems.",
+      doi: "https://doi.org/10.23919/cisti.2019.8760690"
+    },
+    {
+      title: "On the Interoperability of European National Identity Cards",
+      authors: "Shehu, A-S., Pinto, A., Correia, M. E.",
+      venue: "Advances in Intelligent Systems and Computing, Springer",
+      year: "2018",
+      type: "Book Chapter",
+      featured: false,
+      abstract: "Analyses interoperability challenges across European national electronic identity card schemes and proposes approaches for cross-border identity recognition.",
+      doi: "https://doi.org/10.1007/978-3-030-01746-0_40"
     }
   ];
 
