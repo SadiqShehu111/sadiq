@@ -47,6 +47,7 @@ const CVSection = () => {
       icon: <Users className="h-5 w-5" />,
       title: "Leadership & Impact",
       items: [
+        "Module convener for several information security courses at undergraduate and postgraduate levels",
         "Lecturer at Bayero University Kano",
         "Fraud Prevention Consultant at Apple",
         "Cross-sector collaboration spanning academia, technology and financial services"

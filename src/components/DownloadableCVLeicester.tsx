@@ -85,6 +85,7 @@ export const DownloadableCVLeicester = () => {
             <span className="text-sm text-gray-600">January 2026 – Present</span>
           </div>
           <ul className="list-disc ml-6 text-sm space-y-1">
+            <li>Module convener for several information security courses at undergraduate and postgraduate levels, with demonstrated leadership impact on curriculum design, delivery and assessment</li>
             <li>Deliver undergraduate and postgraduate modules across cyber security, information security and computer science</li>
             <li>Design course materials, practical labs, assignments and assessments for complex security concepts</li>
             <li>Supervise BSc, MSc and PhD students on applied security research projects</li>
