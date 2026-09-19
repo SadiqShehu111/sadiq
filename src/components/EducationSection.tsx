@@ -19,7 +19,7 @@ const EducationSection = () => {
       ]
     },
     {
-      degree: "M.S. in Business Information Systems",
+      degree: "MSc in Business Information Systems",
       institution: "University of East London",
       location: "London, United Kingdom",
       year: "2012",
@@ -33,12 +33,12 @@ const EducationSection = () => {
       ]
     },
     {
-      degree: "B.S. in Computer Science (Digital Systems Security)",
+      degree: "BSc in Computer Science (Digital Systems Security)",
       institution: "University of Wollongong",
       location: "New South Wales, Australia",
       year: "2011",
       gpa: "N/A",
-      thesis: "Digital Systems Security",
+      thesis: "A Hybrid Mobile Application for Implementing Encryption and Hashing",
       advisor: "N/A",
       achievements: [
         "Specialization in Digital Security",
