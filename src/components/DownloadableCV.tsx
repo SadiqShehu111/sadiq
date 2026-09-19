@@ -230,6 +230,7 @@ export const DownloadableCV = ({ hideActions = false }: { hideActions?: boolean 
             <div>
               <h3 className="font-bold">MSc in Business Information Systems</h3>
               <p className="text-blue-600">University of East London, United Kingdom</p>
+              <p className="text-sm italic">Supervisor: Dr. Trevor</p>
             </div>
             <span className="text-sm text-gray-600">2011 – 2012</span>
           </div>

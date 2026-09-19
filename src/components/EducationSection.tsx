@@ -25,7 +25,7 @@ const EducationSection = () => {
       year: "2012",
       gpa: "N/A",
       thesis: "Business Information Systems",
-      advisor: "N/A",
+      advisor: "Dr. Trevor",
       achievements: [
         "Focus on Information Systems",
         "Business-IT Integration",
@@ -98,7 +98,9 @@ const EducationSection = () => {
                       Thesis
                     </h4>
                     <p className="text-text-secondary mb-2">"{edu.thesis}"</p>
-                    <p className="text-sm text-professional-gray">Advisor: {edu.advisor}</p>
+                    {edu.advisor && edu.advisor !== "N/A" && (
+                      <p className="text-sm text-professional-gray">Advisor: {edu.advisor}</p>
+                    )}
                   </div>
                   <div>
                     <h4 className="font-medium text-text-primary mb-2 flex items-center gap-2">
