@@ -137,6 +137,15 @@ const PublicationsSection = () => {
                 <p className="text-text-secondary mb-4 leading-relaxed">
                   {pub.abstract}
                 </p>
+                <a
+                  href={pub.doi}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-sm font-mono text-primary hover:underline"
+                >
+                  <ExternalLink className="h-3 w-3" />
+                  {pub.doi}
+                </a>
               </CardContent>
             </Card>
           ))}
