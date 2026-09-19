@@ -98,6 +98,7 @@ export const DownloadableCV = ({ hideActions = false }: { hideActions?: boolean 
             <li>Cyber Security academic with research focused on secure digital content provenance, decentralised identity management, and GDPR-compliant trust systems</li>
             <li>Deliver undergraduate and postgraduate teaching across cybersecurity and computer science modules in the School of Computing and Mathematical Sciences</li>
             <li>Design course materials, assignments, and assessments that translate complex security concepts into practical learning outcomes</li>
+            <li>Module convener for several information security courses at undergraduate and postgraduate levels, owning curriculum design, delivery and assessment</li>
             <li>Supervise and mentor MSc and PhD students on applied cybersecurity, privacy and trust research projects</li>
             <li>Contribute to research outputs, publications and external collaborations aligned with the School's cyber security strategy</li>
           </ul>
