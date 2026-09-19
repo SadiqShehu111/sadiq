@@ -38,7 +38,7 @@ const EducationSection = () => {
       location: "New South Wales, Australia",
       year: "2011",
       gpa: "N/A",
-      thesis: "A Hybrid Mobile Application for Implementing Encryption and Hashing",
+      thesis: "Cryptanalysis: A CryptoBench Application for Encryption",
       advisor: "N/A",
       achievements: [
         "Specialization in Digital Security",
