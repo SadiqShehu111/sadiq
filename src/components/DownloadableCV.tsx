@@ -230,6 +230,7 @@ export const DownloadableCV = ({ hideActions = false }: { hideActions?: boolean 
             <div>
               <h3 className="font-bold">MSc in Business Information Systems</h3>
               <p className="text-blue-600">University of East London, United Kingdom</p>
+              <p className="text-sm italic">Thesis: "A Mobile-Based Application for Encryption and Hashing"</p>
               <p className="text-sm italic">Supervisor: Dr. Trevor</p>
             </div>
             <span className="text-sm text-gray-600">2011 – 2012</span>
@@ -241,7 +242,7 @@ export const DownloadableCV = ({ hideActions = false }: { hideActions?: boolean 
             <div>
               <h3 className="font-bold">BSc in Computer Science (Digital Systems Security)</h3>
               <p className="text-blue-600">University of Wollongong, Australia</p>
-              <p className="text-sm italic">Thesis: "A Hybrid Mobile Application for Implementing Encryption and Hashing"</p>
+              <p className="text-sm italic">Thesis: "Cryptanalysis: A CryptoBench Application for Encryption"</p>
             </div>
             <span className="text-sm text-gray-600">2007 – 2011</span>
           </div>
