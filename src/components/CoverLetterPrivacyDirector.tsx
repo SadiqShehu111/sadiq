@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import html2pdf from 'html2pdf.js';
+import signature from '@/assets/signature.png';
 
 export const CoverLetterPrivacyDirector = () => {
   const letterRef = useRef<HTMLDivElement>(null);
@@ -91,13 +92,20 @@ export const CoverLetterPrivacyDirector = () => {
         </p>
 
         <p className="mt-8">Yours sincerely,</p>
-        <p className="font-bold mt-4">Muhammad Shehu Abubakar-Sadiq, PhD</p>
+        <img src={signature} alt="Signature of Muhammad Shehu Abubakar-Sadiq" className="h-16 mt-2 mb-1" />
+        <p className="font-bold">Muhammad Shehu Abubakar-Sadiq, PhD</p>
       </div>
 
-      <div className="print:hidden flex justify-center my-8">
+      <div className="print:hidden flex flex-wrap justify-center gap-3 my-8">
         <Button onClick={handleDownload} className="flex items-center gap-2">
           <Download className="w-4 h-4" />
           Download Cover Letter (PDF)
+        </Button>
+        <Button asChild variant="outline" className="flex items-center gap-2">
+          <a href="/Muhammad_Shehu_Abubakar-Sadiq_Cover_Letter_Data_Privacy_Protection_Director.docx" download>
+            <Download className="w-4 h-4" />
+            Download Cover Letter (DOCX)
+          </a>
         </Button>
       </div>
     </>
