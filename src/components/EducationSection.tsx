@@ -24,7 +24,7 @@ const EducationSection = () => {
       location: "London, United Kingdom",
       year: "2012",
       gpa: "N/A",
-      thesis: "Business Information Systems",
+      thesis: "A Mobile-Based Application for Encryption and Hashing",
       advisor: "Dr. Trevor",
       achievements: [
         "Focus on Information Systems",
